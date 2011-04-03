@@ -1,0 +1,53 @@
+/**
+	GENERAL 
+**/
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        font-family: Helvetica,Arial,sans-serif;
+    }
+
+
+/**
+	WRAPPER
+**/
+    #wrapper {
+        
+    }
+
+/**
+	LOADER
+**/
+    #loading {
+        height: 100%;
+    }
+
+/**
+	HEADER
+**/
+    #header {
+        
+    }
+	
+/**
+	MENU
+**/
+    #menu {
+		
+    }
+	
+/**
+	FOOTER
+**/
+    #footer {
+    
+	}
+    
+/**
+	CONTENU
+**/
+    #content {
+        
+    }
