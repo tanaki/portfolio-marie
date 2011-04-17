@@ -1,95 +1,170 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Marie Laurent - Interactive and Graphic Designer</title>
-
-        <link rel="stylesheet" href="css/reset.css" type="text/css" />
-        <link rel="stylesheet" href="css/default.css" type="text/css" />
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
-
-        <script src="js/lib/jquery.imgpreload.min.js" type="text/javascript"></script>
-        <script src="js/ML/init.js" type="text/javascript"></script>
-    </head>
-
-    <body>
-        <div id="wrapper">
-            <div id="header">
-                <div id="header-left">
-                    <a id="logo" href="/"><img src="/img/site/misc/icon_logo_24.png" alt="Marie Laurent Logo"/></a>
-                    <ul>
-                        <li id="resume">
-                            <a href="#">My Resume</a>
+    <?php
+        $bodyClass = "mosaic";
+        include("_includes/header.php");
+    ?>
+                <div class="line-container">
+                    <ul id="content-top">
+                        <li class="project">
+                            <a class="first" href="/projects/strange-fruit.php">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/levis_24.png" alt="Levis - Duke" />
+                                    <span class="keywords">
+                                        <span>Levis</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
                         </li>
-                        <li id="mail">
-                            <a href="#"><img src="/img/site/misc/icon_mail_24.png" alt="Mail mawielauwent[at]gmail[dot]com" /></a>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/strange-fruit_24.png" alt="Strange Fruit - Freelance" />
+                                    <span class="keywords">
+                                        <span>Strange Fruit</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
                         </li>
-                        <li id="linkedin">
-                            <a href="http://www.linkedin.com/pub/marie-laurent/23/364/b13/en"><img src="/img/site/misc/icon_linkedin_24.png" alt="http://www.linkedin.com/pub/marie-laurent/23/364/b13/en" /></a>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/punchline_24.png" alt="Punchline - Freelance" />
+                                    <span class="keywords">
+                                        <span>Punchline</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
                         </li>
-                        <li id="twitter">
-                            <a href="http://twitter.com/mawiemawie"><img src="/img/site/misc/icon_twitter_24.png" alt="http://twitter.com/mawiemawie" /></a>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/yummy_24.png" alt="Projet Yummy - Gobelins" />
+                                    <span class="keywords">
+                                        <span>Yummy</span>
+                                        <span>AIR App</span>
+                                        <span>Mobile</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/monopoly_24.png" alt="Monopoly - Duke" />
+                                    <span class="keywords">
+                                        <span>Monopoly</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/costain_24.png" alt="Costain - Tonic" />
+                                    <span class="keywords">
+                                        <span>Costain</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/levis-black_24.png" alt="Levis Black - Duke" />
+                                    <span class="keywords">
+                                        <span>Levis Black</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
                         </li>
                     </ul>
                 </div>
-                <div id="header-right">
-                    <ul id="menu">
-                        <li id="work">
-                            <a href="#">Work</a>
-                            <span>Lorem Ipsum</span>
+                <div class="line-container">
+                    <ul id="content-bottom">
+                        <li class="project">
+                            <a class="first" href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/drawings_24.png" alt="Drawings - Personnal" />
+                                    <span class="keywords">
+                                        <span>Drawings</span>
+                                    </span>
+                                </span>
+                            </a>
                         </li>
-                        <li id="short-bio">
-                            <a href="#">Short Bio</a>
-                            <span>Lorem Ipsum</span>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/howbama_24.png" alt="Howbama - Gobelins" />
+                                    <span class="keywords">
+                                        <span>Howbama</span>
+                                        <span>AIR App</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
                         </li>
-                        <li id="skills">
-                            <a href="#">Skills</a>
-                            <span>Lorem Ipsum</span>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/sony_24.png" alt="Sony - Tonic" />
+                                    <span class="keywords">
+                                        <span>Sony</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/levis-kids_24.png" alt="Levis Kids - Duke" />
+                                    <span class="keywords">
+                                        <span>Levis Kids</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/playstation_24.png" alt="Playstation - Duke" />
+                                    <span class="keywords">
+                                        <span>Playstation</span>
+                                        <span>Web</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/photomontage_24.png" alt="Photomontage - Personnal" />
+                                    <span class="keywords">
+                                        <span>Photomontage</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="/link2">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/strategy_24.png" alt="Strategy - Freelance" />
+                                    <span class="keywords">
+                                        <span>Strategy</span>
+                                        <span>Print</span>
+                                    </span>
+                                </span>
+                            </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div id="content">
-                <ul id="content-top">
-                    <li>
-                        <a class="first" href="/link1"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                    <li>
-                        <a href="/link2"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                    <li>
-                        <a href="/link2"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                    <li>
-                        <a href="/link2"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                    <li>
-                        <a href="/link2"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                    <li>
-                        <a href="/link2"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                    <li>
-                        <a href="/link2"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                </ul>
-                <ul id="content-bottom">
-                    <li>
-                        <a class="first" href="#"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="/img/projects/thumbs/howbama_24.png" alt="Projet Yummy" /></a>
-                    </li>
-                </ul>
-            </div>
-            <!--
-            <div id="footer">
-            </div>
-            -->
-        </div>
-    </body>
-</html>
+
+        
+<?php include("_includes/footer.php"); ?>
