@@ -5,7 +5,7 @@
                 <div class="line-container">
                     <ul id="content-top">
                         <li class="project">
-                            <a class="first" href="/projects/strange-fruit.php">
+                            <a class="first" href="/projects/strange-fruit">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/levis_24.png" alt="Levis - Duke" />
                                     <span class="keywords">
@@ -45,7 +45,6 @@
                                         <span>Yummy</span>
                                         <span>AIR App</span>
                                         <span>Mobile</span>
-                                        <span>Web</span>
                                     </span>
                                 </span>
                             </a>

@@ -10,6 +10,10 @@
         <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script-->
         <script src="/js/lib/jquery.min.js" type="text/javascript"></script>
 
+        <script src="/js/font/cufon-yui.js" type="text/javascript"></script>
+        <script src="/js/font/Helvetica_Neue_700.font.js" type="text/javascript"></script>
+
+        <script src="/js/lib/jquery.address-1.3.2.min.js" type="text/javascript"></script>
         <script src="/js/lib/jquery.imgpreload.min.js" type="text/javascript"></script>
         <script src="/js/lib/jquery.animateToClass.js" type="text/javascript"></script>
         <script src="/js/ML/mosaic_hover.js" type="text/javascript"></script>

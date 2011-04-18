@@ -18,6 +18,7 @@
 		var self = this;
 
         $(this).click(function(){
+            $.address.value($(this).attr('href'));
             closeMosaic(this);
             return false;
         });

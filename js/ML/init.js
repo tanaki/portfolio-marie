@@ -5,8 +5,22 @@ $(window).ready(function(){
         .removeClass("noJS")
         .addClass("hasJS");
 
+    Cufon.replace('#header a, .keywords span', {
+        hover : true
+    });
+
+    $("#logo").click(function(){
+        // TODO create back animation
+        console.log("Back Animation");
+        return false;
+    });
+
+    // vertically center
+    var marginTop = Math.floor(($(window).height() / 2) - 230 - 164);
+    if ( marginTop > 0 ) $("#header").css("margin-top", marginTop);
+
     // Resize ul
-    $("#content-top").css("width", $("#content-top li").length * 250 + 130);
+    $("#content-top").css("width", $("#content-top li").length * 250 + 115);
     $("#content-bottom").css("width", $("#content-bottom li").length * 250 + 130 - 255);
 
     // preload images
