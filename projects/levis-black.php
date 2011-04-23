@@ -7,6 +7,10 @@
     <div class="container-project">
         <ul class="content-project">
             <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
+            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
+            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
+            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
+            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
         </ul>
         <a href="#" class="carousel-prev">PREV</a>
         <a href="#" class="carousel-next">NEXT</a>
@@ -17,10 +21,10 @@
                 
             </div>
             <div class="bottom-project-title">
-                Strange Fruit
+                Levis Black
             </div>
             <div class="bottom-project-desc">
-                2011 - Site Web
+                2010 - Site web
             </div>
         </div>
     </div>

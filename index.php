@@ -1,11 +1,14 @@
     <?php
-        $bodyClass = "mosaic";
-        include("_includes/header.php");
+        if ( !isset($_POST["noLayout"]) ) {
+            $bodyClass = "mosaic";
+            include("_includes/header.php");
+        }
     ?>
+            <div class="content-inner">
                 <div class="line-container">
                     <ul id="content-top">
                         <li class="project">
-                            <a class="first" href="/projects/strange-fruit">
+                            <a class="first" href="/projects/levis">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/levis_24.png" alt="Levis - Duke" />
                                     <span class="keywords">
@@ -16,7 +19,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/strange-fruit">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/strange-fruit_24.png" alt="Strange Fruit - Freelance" />
                                     <span class="keywords">
@@ -27,7 +30,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/punchline">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/punchline_24.png" alt="Punchline - Freelance" />
                                     <span class="keywords">
@@ -38,7 +41,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/yummy">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/yummy_24.png" alt="Projet Yummy - Gobelins" />
                                     <span class="keywords">
@@ -50,7 +53,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/monopoly">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/monopoly_24.png" alt="Monopoly - Duke" />
                                     <span class="keywords">
@@ -61,7 +64,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/costain">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/costain_24.png" alt="Costain - Tonic" />
                                     <span class="keywords">
@@ -72,7 +75,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/levis-black">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/levis-black_24.png" alt="Levis Black - Duke" />
                                     <span class="keywords">
@@ -84,10 +87,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="line-container">
+                <div class="line-container line-bottom">
                     <ul id="content-bottom">
                         <li class="project">
-                            <a class="first" href="/link2">
+                            <a class="first" href="/projects/drawings">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/drawings_24.png" alt="Drawings - Personnal" />
                                     <span class="keywords">
@@ -97,7 +100,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/howbama">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/howbama_24.png" alt="Howbama - Gobelins" />
                                     <span class="keywords">
@@ -109,7 +112,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/sony">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/sony_24.png" alt="Sony - Tonic" />
                                     <span class="keywords">
@@ -120,7 +123,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/levis-kids">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/levis-kids_24.png" alt="Levis Kids - Duke" />
                                     <span class="keywords">
@@ -131,7 +134,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/playstation">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/playstation_24.png" alt="Playstation - Duke" />
                                     <span class="keywords">
@@ -142,7 +145,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/photomontage">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/photomontage_24.png" alt="Photomontage - Personnal" />
                                     <span class="keywords">
@@ -152,7 +155,7 @@
                             </a>
                         </li>
                         <li class="project">
-                            <a href="/link2">
+                            <a href="/projects/...">
                                 <span class="content-project">
                                     <img src="/img/projects/thumbs/strategy_24.png" alt="Strategy - Freelance" />
                                     <span class="keywords">
@@ -164,6 +167,11 @@
                         </li>
                     </ul>
                 </div>
+            </div>
 
         
-<?php include("_includes/footer.php"); ?>
+<?php
+    if ( !isset($_POST["noLayout"]) ) {
+        include("_includes/footer.php");
+    }
+?>

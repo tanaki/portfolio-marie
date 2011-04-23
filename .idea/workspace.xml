@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/ML/init.js" line="65" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/js/ML/init.js" line="31" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2b4d7d-b1f8-4021-bf59-81cd3ceae7f7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ML/font.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ML/improved_carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ML/logo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ML/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ML/mosaic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ML/preload_images.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ML/resize.js" />
+      <change type="DELETED" beforePath="E:\wamp\www\2011_portfolio_marie\img\site\misc\bg_global_8.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp\www\2011_portfolio_marie\js\ML\mosaic_hover.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp\www\2011_portfolio_marie\js\font\Helvetica_Neue_700.font.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.php" afterPath="$PROJECT_DIR$/_includes/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ML/init.js" afterPath="$PROJECT_DIR$/js/ML/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ML/mosaic_hover.js" afterPath="$PROJECT_DIR$/js/ML/mosaic_hover.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ML/open_project.js" afterPath="$PROJECT_DIR$/js/ML/open_project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/strange-fruit.php" afterPath="$PROJECT_DIR$/projects/strange-fruit.php" />
     </list>
     <ignored path="2011_portfolio_marie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,46 +44,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/default.css">
+      <file leaf-file-name="levis-black.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/levis-black.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="13" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.5897129">
+            <state line="26" column="31" selection-start="1030" selection-end="1030" vertical-scroll-proportion="-17.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="open_project.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ML/open_project.js">
+      <file leaf-file-name="levis-kids.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/levis-kids.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+            <state line="26" column="31" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-17.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="levis.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/levis.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="74" selection-start="295" selection-end="295" vertical-scroll-proportion="-2.2452831">
+            <state line="26" column="31" selection-start="1024" selection-end="1024" vertical-scroll-proportion="-17.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/header.php">
+      <file leaf-file-name="monopoly.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/monopoly.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="56" selection-start="738" selection-end="738" vertical-scroll-proportion="-9.807693">
+            <state line="23" column="24" selection-start="930" selection-end="930" vertical-scroll-proportion="-15.038462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.php">
+      <file leaf-file-name="photomontage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/photomontage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="23" column="28" selection-start="934" selection-end="934" vertical-scroll-proportion="-15.038462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playstation.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/playstation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="31" selection-start="1030" selection-end="1030" vertical-scroll-proportion="-17.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="punchline.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/punchline.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sony.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/sony.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -82,25 +119,16 @@
       <file leaf-file-name="strange-fruit.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/strange-fruit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ML/init.js">
+      <file leaf-file-name="yummy.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/yummy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="35" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mosaic_hover.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ML/mosaic_hover.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="43" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,16 +148,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/reset.css" />
-        <option value="$PROJECT_DIR$/steph.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.php" />
-        <option value="$PROJECT_DIR$/projects/strange-fruit.php" />
-        <option value="$PROJECT_DIR$/js/ML/mosaic_hover.js" />
-        <option value="$PROJECT_DIR$/_includes/header.php" />
         <option value="$PROJECT_DIR$/js/ML/open_project.js" />
+        <option value="$PROJECT_DIR$/_includes/header.php" />
+        <option value="$PROJECT_DIR$/js/ML/font.js" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/js/ML/init.js" />
-        <option value="$PROJECT_DIR$/css/default.css" />
+        <option value="$PROJECT_DIR$/js/ML/improved_carousel.js" />
+        <option value="$PROJECT_DIR$/projects/punchline.php" />
+        <option value="$PROJECT_DIR$/projects/strange-fruit.php" />
+        <option value="$PROJECT_DIR$/projects/sony.php" />
+        <option value="$PROJECT_DIR$/projects/costain.php" />
+        <option value="$PROJECT_DIR$/projects/drawings.php" />
+        <option value="$PROJECT_DIR$/projects/levis-black.php" />
+        <option value="$PROJECT_DIR$/projects/levis-kids.php" />
+        <option value="$PROJECT_DIR$/projects/levis.php" />
+        <option value="$PROJECT_DIR$/projects/monopoly.php" />
+        <option value="$PROJECT_DIR$/projects/photomontage.php" />
+        <option value="$PROJECT_DIR$/projects/playstation.php" />
       </list>
     </option>
   </component>
@@ -159,7 +193,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,12 +221,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -224,6 +258,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\2011_portfolio_marie\js\ML" />
       <recent name="E:\wamp\www\2011_portfolio_marie\projects" />
     </key>
   </component>
@@ -274,15 +309,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1064" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1920" height="1046" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="100" y="100" width="1720" height="846" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17989418" sideWeight="0.6704036" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15426105" sideWeight="0.67048055" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -327,74 +363,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/projects/drawings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="54" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.46770334" />
+        <state line="26" column="16" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/projects/thumbs/monopoly_24.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/projects/mini/howbama_24.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/projects/levis-black.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2590" selection-start="2957" selection-end="2961" vertical-scroll-proportion="0.30984205" />
+        <state line="26" column="31" selection-start="1030" selection-end="1030" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.php">
+    <entry file="file://$PROJECT_DIR$/projects/levis-kids.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/strange-fruit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ML/mosaic_hover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+        <state line="26" column="31" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-17.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="56" selection-start="738" selection-end="738" vertical-scroll-proportion="-9.807693">
+        <state line="47" column="32" selection-start="2403" selection-end="2403" vertical-scroll-proportion="-11.115385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ML/open_project.js">
+    <entry file="file://$PROJECT_DIR$/projects/levis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="74" selection-start="295" selection-end="295" vertical-scroll-proportion="-2.2452831">
+        <state line="26" column="31" selection-start="1024" selection-end="1024" vertical-scroll-proportion="-17.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ML/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+        <state line="15" column="18" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/default.css">
+    <entry file="file://$PROJECT_DIR$/projects/monopoly.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="13" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.5897129">
+        <state line="23" column="24" selection-start="930" selection-end="930" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ML/font.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="44" selection-start="475" selection-end="503" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/photomontage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="28" selection-start="934" selection-end="934" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ML/logo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="9" selection-start="0" selection-end="951" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/playstation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="31" selection-start="1030" selection-end="1030" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ML/improved_carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="44" selection-start="2545" selection-end="2545" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/punchline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sony.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/strange-fruit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/yummy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
