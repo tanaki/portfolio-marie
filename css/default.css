@@ -14,7 +14,6 @@
 	WRAPPER
 **/
     #wrapper {
-        background:url(/img/site/misc/bg_global_24.png) repeat 0 0;
         height: 100%;
         width: 100%;
         overflow:auto;
@@ -31,14 +30,12 @@
 	HEADER
 **/
     #header {
-        overflow:hidden;
-        margin-bottom:5px;
         height: 154px;
-    }
-    #header-container {
-        margin:0 auto;
+        margin:0 auto 5px;
         overflow:hidden;
         width:1132px;
+    }
+    #header-container {
     }
 
     /**
@@ -173,7 +170,7 @@
 	CONTENU
 **/
     #content {
-        background:#cfcfcf /*url(/img/site/misc/bg_content.jpg) no-repeat right center*/;
+        /*background:#cfcfcf url(/img/site/misc/bg_content.jpg) no-repeat right center*/;
         position:relative;
     }
     .content-inner {
@@ -405,5 +402,53 @@
         color:#f977ac;
         text-decoration:none;
     }
+
+    .work-content {
+        display:none;
+    }
+
+/**
+    Footer Project
+**/
+
+    #footer-project {
+        background:url(/img/site/misc/bg_footer_8.png) repeat-x center top;
+    }
+    #footer-project ul {
+        overflow:hidden;
+        padding-left:30px;
+        margin:5px auto 0;
+        width:1070px;
+    }
+    #footer-project ul li {
+        float:left;
+        margin-right:5px;
+    }
+
+    #footer-project ul li a {
+        display:block;
+        overflow:hidden;
+        width:59px;
+        background:#000;
+
+        -moz-transform:skew(-45deg);
+        -webkit-transform:skew(-45deg);
+        -o-transform:skew(-45deg);
+        -ms-transform:skew(-45deg);
+    }
+    #footer-project ul li a span.content-project {
+        display:block;
+        
+        -moz-transform:skew(45deg);
+        -webkit-transform:skew(45deg);
+        -o-transform:skew(45deg);
+        -ms-transform:skew(45deg);
+    }
+    #footer-project ul li a span.content-project img {
+        display:block;
+        margin-left:-29px;
+        opacity:0.6;
+    }
+
 
 

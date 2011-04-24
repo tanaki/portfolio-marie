@@ -12,6 +12,7 @@
                     $.address.value("/");
                     $("#content").fadeOut(300, function(){
                         $(".project-detail").MLOpenProject("openMosaic");
+                        
                     })
                 }
 

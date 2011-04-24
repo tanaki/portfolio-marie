@@ -25,6 +25,7 @@
             </div>
         </div>
     </div>
+    <span class="work-content">Monopoly - This is the content</span>
 
 <?php
     if ( !isset($_POST["noLayout"]) ) {

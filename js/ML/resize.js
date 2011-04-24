@@ -4,6 +4,7 @@
         init : function( options ) {
             var self = this;
         },
+        
         resize : function(){
 
             // vertically center
@@ -11,25 +12,47 @@
             if ( marginTop > 0 ) $("#header").css("margin-top", marginTop);
             else $("#header").css("margin-top", 0);
 
-            // background position
-            // TODO
+            methods.background();
 
             if ( $.address.value() == "/" ) methods.home();
         },
 
+        background : function(){
+
+            if ( !$("#wrapper").hasClass("hasBackground") ) {
+                $("#wrapper").addClass("hasBackground");
+                return;
+            }
+
+            // background position
+            var top = $("#logo").position().top - 73;
+            var left = $("#logo").position().left - 353;
+            if( $(window).width() < $(".content-inner").width() ) {
+                left = Math.round( ( $(window).width() - $(".content-inner").width() ) / 2) + 13;
+            }
+            $("#wrapper").css({
+                "background-position" : (left +"px "+top+"px"),
+                "background-image" : "url(/img/site/misc/bg_global_24.png)"
+            });
+        },
+
         home : function(){
 
-            // horizontally center
-            var margin = "0 auto";
-            if( $(window).width() < $(".content-inner").width() ) {
-                margin = "0 0 0 " + Math.round( ( $(window).width() - $(".content-inner").width() ) / 2) + "px";
-            }
-            $(".line-container").css("margin", margin);
-
             var topWidth = $("#content-top li").length * 250 + 115;
-            var bottomWidth = $("#content-bottom li").length * 250 + 115;
+            var bottomWidth = $("#content-bottom li").length * 250 + 103;
             $("#content-top").parent().css("width", topWidth);
             $("#content-bottom").parent().css("width", bottomWidth);
+            
+            // horizontally center
+            var margin = "0 auto",
+                marginLast = "0 auto";
+            if( $(window).width() < $(".content-inner").width() ) {
+                var marginLeft = Math.round( ( $(window).width() - $(".content-inner").width() ) / 2);
+                margin = "0 0 0 " + marginLeft + "px";
+                marginLast = "0 0 0 " + (marginLeft + 5) + "px";
+            }
+            $(".line-container:first").css("margin", margin);
+            $(".line-container:last").css("margin", marginLast);
         }
     };
 

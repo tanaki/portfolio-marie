@@ -30,9 +30,12 @@
                     $("#menu a.current").removeClass("current");
                     $("#menu #work a").addClass("current");
 
-                    // TODO populate menu work
                     $("#menu")
                         .MLMenu("open", 0);
+                    $("#menu #work .menu-content")
+                        .html($(".work-content").html());
+
+                    $(window).MLFont("work");
 
                     methods._initProject();
                 }
@@ -56,6 +59,9 @@
                             $(".mosaic a").MLOpenProject();
                             $(window).MLFont();
                         });
+                    
+                    $("#menu #work .menu-content")
+                        .html($(".work-content").html());
                 }
             );
         },

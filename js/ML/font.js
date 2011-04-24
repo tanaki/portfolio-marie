@@ -17,6 +17,11 @@
             Cufon.replace(".bottom-project-desc", {
                 fontFamily: 'HelveticaNeueClassic'
             });
+        },
+        work : function(){
+            Cufon.replace("#menu #work .menu-content", {
+                fontFamily: 'HelveticaNeueClassic'
+            })
         }
     };
 

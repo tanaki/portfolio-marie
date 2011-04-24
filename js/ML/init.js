@@ -3,7 +3,7 @@ $(window).resize(function(){
 });
 
 $(window).ready(function(){
-
+    
     // has JS basic
     $("html")
         .removeClass("noJS")
@@ -17,6 +17,14 @@ $(window).ready(function(){
     $("#menu").MLMenu();
     
     $(window).MLResize("resize");
+
+    // prevent mailto issue in Chrome
+    if( /chrome/gi.test(navigator.userAgent) ) {
+        $("#mail a").click(function(){
+            prompt("Direct mail links don't seem to work on Chrome, Please use your usual way to send an email at :", "mawielauwent@gmail.com");
+            return false;
+        });
+    }
 });
 
 $(window).bind({
@@ -42,11 +50,10 @@ function navDisplayed(){
         "width" : "100%",
         "display" : "block"
     });
-    
+    $(window).MLResize("resize");
     if( $.address.value() != "/" ) {
         $(".mosaic a").MLOpenProject("open", $.address.value());
     } else {
-        $(window).MLResize("resize");
         $(".mosaic").MLMosaic("display");
         $(".mosaic a").MLOpenProject();
     }

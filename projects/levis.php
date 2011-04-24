@@ -29,8 +29,10 @@
             </div>
         </div>
     </div>
+    <span class="work-content">Levis - This is the content</span>
 
 <?php
+    include("../_includes/footer_project.php");
     if ( !isset($_POST["noLayout"]) ) {
         include("../_includes/footer.php");
     }

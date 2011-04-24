@@ -9,12 +9,15 @@
         display : function(){
 
             $(window).MLResize("resize");
+
+            var max = $(".line-container:first li").length - 1;
             $(".mosaic li.project").each(function(i, el){
-                var index = i > 6 ? i-6 : i;
+                var index = i > max ? i-max : i;
                 $(el)
                     .delay(index*120)
                     .fadeIn(200);
             });
+            
             methods.hover();
         },
 

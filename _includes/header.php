@@ -32,7 +32,9 @@
                 "/img/projects/thumbs/levis-kids_24.png",
                 "/img/projects/thumbs/playstation_24.png",
                 "/img/projects/thumbs/photomontage_24.png",
-                "/img/projects/thumbs/strategy_24.png"
+                "/img/projects/thumbs/strategy_24.png",
+
+                "/img/projects/content/yummy/yummy-1.jpg"    
 
             ];
         </script>
@@ -80,7 +82,7 @@
                         <ul id="menu">
                             <li id="work">
                                 <a href="#" data-index="0">Work</a>
-                                <span class="menu-content">Lorem Ipsum</span>
+                                <span class="menu-content">Click on one of the works below to see more details.</span>
                             </li>
                             <li id="short-bio">
                                 <a href="#" data-index="1">Short Bio</a>

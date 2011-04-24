@@ -85,6 +85,16 @@
                                 </span>
                             </a>
                         </li>
+                        <li class="project">
+                            <a href="/projects/">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/levis_24.png" alt="" />
+                                    <span class="keywords">
+                                        <span>TBD</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="line-container line-bottom">
@@ -165,9 +175,20 @@
                                 </span>
                             </a>
                         </li>
+                        <li class="project">
+                            <a href="/projects/">
+                                <span class="content-project">
+                                    <img src="/img/projects/thumbs/strategy_24.png" alt="" />
+                                    <span class="keywords">
+                                        <span>TBD</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
+            <span class="work-content">Click on one of the works below to see more details.</span>
 
         
 <?php
