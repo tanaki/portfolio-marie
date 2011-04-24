@@ -11,6 +11,14 @@
             if ( marginTop > 0 ) $("#header").css("margin-top", marginTop);
             else $("#header").css("margin-top", 0);
 
+            // background position
+            // TODO
+
+            if ( $.address.value() == "/" ) methods.home();
+        },
+
+        home : function(){
+
             // horizontally center
             var margin = "0 auto";
             if( $(window).width() < $(".content-inner").width() ) {
@@ -18,9 +26,10 @@
             }
             $(".line-container").css("margin", margin);
 
-            // background position
-            // TODO
-                        
+            var topWidth = $("#content-top li").length * 250 + 115;
+            var bottomWidth = $("#content-bottom li").length * 250 + 115;
+            $("#content-top").parent().css("width", topWidth);
+            $("#content-bottom").parent().css("width", bottomWidth);
         }
     };
 

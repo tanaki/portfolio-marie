@@ -4,7 +4,6 @@
         init : function(){
             
             var self = this;
-
             $(self).click(function(){
                 $.address.value($(this).attr('href'));
                 methods.closeMosaic(this);
@@ -52,6 +51,7 @@
                         .addClass("mosaic")
                         .html(htmlLoaded)
                         .fadeIn(function(){
+                            $(window).MLResize("home");
                             $(".mosaic").MLMosaic("display");
                             $(".mosaic a").MLOpenProject();
                             $(window).MLFont();

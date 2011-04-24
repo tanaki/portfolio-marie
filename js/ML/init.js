@@ -15,17 +15,8 @@ $(window).ready(function(){
     $(window).MLFont();
     $("#logo").MLLogo();
     $("#menu").MLMenu();
-
-    // resize ul
-    if( $.address.value() == "/" ) {
-        var topWidth = $("#content-top li").length * 250 + 115;
-        var bottomWidth = $("#content-bottom li").length * 250 + 130;
-        $("#content-top").parent().css("width", topWidth);
-        $("#content-bottom").parent().css("width", bottomWidth);
-    }
-    // trigger first time
-    $(window).resize();
-
+    
+    $(window).MLResize("resize");
 });
 
 $(window).bind({
@@ -55,6 +46,7 @@ function navDisplayed(){
     if( $.address.value() != "/" ) {
         $(".mosaic a").MLOpenProject("open", $.address.value());
     } else {
+        $(window).MLResize("resize");
         $(".mosaic").MLMosaic("display");
         $(".mosaic a").MLOpenProject();
     }

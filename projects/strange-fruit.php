@@ -8,6 +8,7 @@
         <ul class="content-project">
             <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
         </ul>
+        <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
         <a href="#" class="carousel-next">NEXT</a>
     </div>

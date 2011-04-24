@@ -12,6 +12,7 @@
             <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
             <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
         </ul>
+        <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
         <a href="#" class="carousel-next">NEXT</a>
     </div>
@@ -24,7 +25,7 @@
                 Yummy
             </div>
             <div class="bottom-project-desc">
-                2010 - AIR Application + Mobile - Gobelins, l'&eacute;cole de l'image - Conception, art direction, design - <a href="http://www.projet-yummy.com" rel="external">www.projet-yummy.com</a>
+                2010 - AIR Application + Mobile - Gobelins, l'&eacute;cole de l'image - Conception, art direction, design - <a href="http://www.projet-yummy.com" target="_blank">www.projet-yummy.com</a>
             </div>
         </div>
     </div>

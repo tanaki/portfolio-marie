@@ -63,16 +63,16 @@
                         <a id="logo" href="/"><img src="/img/site/misc/icon_logo_24.png" alt="Marie Laurent Logo"/></a>
                         <ul class="sublogo">
                             <li id="resume">
-                                <a rel="external" href="/data/CV_Marie-Laurent.pdf">My Resume</a>
+                                <a target="_blank" href="/data/CV_Marie-Laurent.pdf">My Resume</a>
                             </li>
                             <li id="mail">
-                                <a href="mailto:mawielauwent[at]gmail[dot]com"></a>
+                                <a href="mailto:mawielauwent@gmail.com"></a>
                             </li>
                             <li id="linkedin">
-                                <a rel="external" href="http://www.linkedin.com/pub/marie-laurent/23/364/b13/en"></a>
+                                <a target="_blank" href="http://www.linkedin.com/pub/marie-laurent/23/364/b13/en"></a>
                             </li>
                             <li id="twitter">
-                                <a rel="external" href="http://twitter.com/mawiemawie"></a>
+                                <a target="_blank" href="http://twitter.com/mawiemawie"></a>
                             </li>
                         </ul>
                     </div>

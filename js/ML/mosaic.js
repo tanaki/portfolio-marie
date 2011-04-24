@@ -7,6 +7,8 @@
         },
 
         display : function(){
+
+            $(window).MLResize("resize");
             $(".mosaic li.project").each(function(i, el){
                 var index = i > 6 ? i-6 : i;
                 $(el)
