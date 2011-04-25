@@ -48,14 +48,15 @@ function navDisplayed(){
 
     $("#content").css({
         "width" : "100%",
-        "display" : "block"
+        "display" : "block",
+        "min-width" : 1240
     });
     $(window).MLResize("resize");
     if( $.address.value() != "/" ) {
-        $(".mosaic a").MLOpenProject("open", $.address.value());
+        $(".mosaic ul a").MLOpenProject("open", $.address.value());
     } else {
         $(".mosaic").MLMosaic("display");
-        $(".mosaic a").MLOpenProject();
+        $(".mosaic ul a").MLOpenProject();
     }
 }
 

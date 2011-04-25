@@ -30,7 +30,7 @@
             </div>
         </div>
     </div>
-    <span class="work-content">Drawings</span>
+    <span class="work-content"></span>
 <?php
     include("../_includes/footer_project.php");
     if ( !isset($_POST["noLayout"]) ) {

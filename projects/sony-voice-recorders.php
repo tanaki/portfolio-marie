@@ -6,7 +6,10 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li><img src="/img/projects/content/sony-voice-recorders/sony-voice-recorders_01.jpg" /></li>
+            <li>
+                <img src="/img/projects/content/sony-voice-recorders/sony-voice-recorders_01.jpg" />
+                <span class="caption">Coming Soon</span>
+            </li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
@@ -21,7 +24,12 @@
             <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">Sony - This is the content</span>
+    <span class="work-content">
+        My role: Design<br/>
+        AGENCY: Tonic<br/>
+        CLIENT: Sony<br/><br/>
+        Designing the new Sony Voice recorder hub.
+    </span>
 
 <?php
     include("../_includes/footer_project.php");

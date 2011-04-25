@@ -1,9 +1,10 @@
 (function( $ ){
 
+    var isAnimatingTop = false,
+        isAnimatingBottom = false;
     var methods = {
         init : function( options ) {
             var self = this;
-            
         },
 
         display : function(){
@@ -19,10 +20,11 @@
             });
             
             methods.hover();
+            methods.carousel();
         },
 
         hover : function(){
-            $(".mosaic a").hover(
+            $(".mosaic ul a").hover(
                 function(){
                     var self = this;
     //                $('img', self)
@@ -61,6 +63,70 @@
                     }
                 });
 
+        },
+        carousel : function(){
+            $(".mosaic-prev-top").mouseover(function(){
+                methods._prev(".line-container:first", -135, "top");
+            });
+
+            $(".mosaic-next-top").mouseover(function(){
+                var max = $(window).width() - $(".line-container:first").width() + 100;
+                methods._next(".line-container:first", max, "top");
+            });
+
+            $(".mosaic-prev-bottom").mouseover(function(){
+                methods._prev(".line-container:last", -135, "bottom");
+            });
+
+            $(".mosaic-next-bottom").mouseover(function(){
+                var max = $(window).width() - $(".line-container:last").width() + 100;
+                methods._next(".line-container:last", max, "bottom");
+            });
+
+        },
+        _prev : function(target, max, origin){
+            var base = parseInt($(target).css("margin-left"));
+            if ( isAnimatingTop || isAnimatingBottom || base > max ) {
+                return false;
+            }
+            if (origin == "top") isAnimatingTop = true;
+            if (origin == "bottom") isAnimatingBottom = true;
+
+            while( base < max ) {
+                 base += 232;
+            }
+
+            $(target)
+                .animate({
+                    "margin-left" : base
+                }, 600, "easeInOutSine", function(){
+                    $(".mosaic-prev-"+origin).addClass("disable");
+                    $(".mosaic-next-"+origin).removeClass("disable");
+                    if (origin == "top") isAnimatingTop = false;
+                    if (origin == "bottom") isAnimatingBottom = false;
+                });
+        },
+        _next : function(target, max, origin){
+            var base = parseInt($(target).css("margin-left"));
+            if ( isAnimatingTop || isAnimatingBottom || base < max ) {
+                return false;
+            }
+            if (origin == "top") isAnimatingTop = true;
+            if (origin == "bottom") isAnimatingBottom = true;
+
+            while( base > max ) {
+                 base -= 232;
+            }
+
+            $(target)
+                .animate({
+                    "margin-left" : base
+                }, 600, "easeInOutSine", function(){
+                    $(".mosaic-next-"+origin).addClass("disable");
+                    $(".mosaic-prev-"+origin).removeClass("disable");
+                    if (origin == "top") isAnimatingTop = false;
+                    if (origin == "bottom") isAnimatingBottom = false;
+                });
         }
     };
 

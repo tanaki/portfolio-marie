@@ -19,9 +19,12 @@
             });
         },
         work : function(){
+            Cufon.replace("#menu #work .menu-link", {
+                fontFamily: 'Helvetica Neue'
+            });
             Cufon.replace("#menu #work .menu-content", {
                 fontFamily: 'HelveticaNeueClassic'
-            })
+            });
         }
     };
 

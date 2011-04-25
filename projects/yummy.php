@@ -23,27 +23,35 @@
             </li-->
             <li>
                 <img src="/img/projects/content/yummy/yummy_03.jpg" />
+                <span class="caption">Touchscreen Application</span>
             </li>
             <li>
                 <img src="/img/projects/content/yummy/yummy_04.jpg" />
+                <span class="caption">Touchscreen Application</span>
             </li>
             <li>
                 <img src="/img/projects/content/yummy/yummy_05.jpg" />
+                <span class="caption">Touchscreen Application</span>
             </li>
             <li>
                 <img src="/img/projects/content/yummy/yummy_06.jpg" />
+                <span class="caption">Mobile Application</span>
             </li>
             <li>
                 <img src="/img/projects/content/yummy/yummy_07.jpg" />
+                <span class="caption">Logo</span>
             </li>
             <li>
                 <img src="/img/projects/content/yummy/yummy_08.jpg" />
+                <span class="caption">Logo Research</span>
             </li>
             <li>
                 <img src="/img/projects/content/yummy/yummy_09.jpg" />
+                <span class="caption">Booklet and Stickers</span>
             </li>
             <li>
                 <img src="/img/projects/content/yummy/yummy_10.jpg" />
+                <span class="caption">Booklet and Stickers</span>
             </li>
         </ul>
         <div class="arrows"></div>
@@ -57,7 +65,12 @@
             <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">2010 - AIR Application + Mobile - Gobelins, l'&eacute;cole de l'image - Conception, art direction, design - <a href="http://www.projet-yummy.com" target="_blank">www.projet-yummy.com</a></span>
+    <span class="work-content">
+        My role: Art direction / Interactive design<br/>
+        School: Gobelins, l'école de l'image<br/>
+        Europrix nominee 2010 in mobile contents and applications category.<br/><br/>
+        Yummy is a diploma project produced by five students from the digital design and production course at Gobelins, l'École de l'Image. Yummy is a Multimedia culinary companion for the entire family. <a target="_blank" href="http://www.projet-yummy.com/en">Visit website</a>
+    </span>
 
 <?php
     include("../_includes/footer_project.php");

@@ -25,7 +25,13 @@
             <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">Monopoly - This is the content</span>
+    <span class="work-content">
+        My role: Design / Interactive design<br/>
+        AGENCY: Duke/Avenue A Razorfish<br/>
+        CLIENT: McDonald’s Monopoly<br/><br/>
+        Animation (Flash) of all the pages of the McDonald’s Monopoly minisite. <a target="_blank" href="#">Visit website</a><br/>
+        Designing the Intranet site...
+    </span>
 
 <?php
     include("../_includes/footer_project.php");

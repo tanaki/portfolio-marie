@@ -84,7 +84,11 @@
                             <li id="short-bio">
                                 <a class="menu-link" href="#" data-index="1">Short Bio</a>
                                 <span class="menu-content">
-                                    Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco liquip ex ea consequat.
+                                    Hello!<br/>
+                                    My name is Marie Laurent, I’m a 24 years old interactive and graphic designer.<br/>
+                                    I graduated with a master's degree in digital design and production from Gobelins in 2010.<br/>
+                                    I just finish a 6 month internship at Tonic London, and I’m currently looking for a full time position in London.<br/>
+                                    Please feel free to get in touch with me!
                                 </span>
                             </li>
                             <li id="skills">
@@ -99,7 +103,10 @@
                             </li>
                             <li id="credits" class="last">
                                 <a class="menu-link" href="#" data-index="3">Credits</a>
-                                <span class="menu-content">Lorem Ipsum</span>
+                                <span class="menu-content">
+                                    Art direction: Marie Laurent
+                                    Developement: <a target="_blank" href="http://www.nicolaspigelet.com/">Nicolas Pigelet</a>
+                                </span>
                             </li>
                         </ul>
                     </div>

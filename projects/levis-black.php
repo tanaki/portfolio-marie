@@ -6,8 +6,14 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li><img src="/img/projects/content/levis-black/levis-black_01.jpg" /></li>
-            <li><img src="/img/projects/content/levis-black/levis-black_03.jpg" /></li>
+            <li>
+                <img src="/img/projects/content/levis-black/levis-black_01.jpg" />
+                <span class="caption">Levi's Flash banner</span>
+            </li>
+            <li>
+                <img src="/img/projects/content/levis-black/levis-black_03.jpg" />
+                <span class="caption">Levi's Email and banners</span>
+            </li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
@@ -22,7 +28,12 @@
             <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">Levis Black - This is the content</span>
+    <span class="work-content">
+        My role: Design / Interactive design<br/>
+        AGENCY: Duke/Avenue A Razorfish<br/>
+        CLIENT: Levi’s<br/><br/>
+        Creation of images, showcases, emailings, flash animated banners...
+    </span>
 
 <?php
     include("../_includes/footer_project.php");

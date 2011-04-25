@@ -49,8 +49,9 @@
             }, function(){
                 var $span = $( "span", this);
                 $span.css("display", "block");
+                var marginTop = $span.height() > 0 ? 120 - $span.height() : 135;
                 $(this).animate({
-                    "margin-top" : 120 - $span.height()
+                    "margin-top" : marginTop
                 }, function(){
                     isAnimating = false;
                 });

@@ -6,9 +6,18 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li><img src="/img/projects/content/playstation-pink/playstation-pink_01.jpg" /></li>
-            <li><img src="/img/projects/content/playstation-pink/playstation-pink_02.jpg" /></li>
-            <li><img src="/img/projects/content/playstation-pink/playstation-pink_03.jpg" /></li>
+            <li>
+                <img src="/img/projects/content/playstation-pink/playstation-pink_01.jpg" />
+                <span class="caption">Playstation Pink minisite</span>
+            </li>
+            <li>
+                <img src="/img/projects/content/playstation-pink/playstation-pink_02.jpg" />
+                <span class="caption">Playstation Pink minisite</span>
+            </li>
+            <li>
+                <img src="/img/projects/content/playstation-pink/playstation-pink_03.jpg" />
+                <span class="caption">Playstation Pink emails</span>
+            </li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
@@ -23,7 +32,12 @@
             <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">Playstation Pink - This is the content</span>
+    <span class="work-content">
+        My role:  Art direction<br/>
+        AGENCY: Duke/Avenue A Razorfish<br/>
+        CLIENT: Playstation<br/><br/>
+         Art direction of the PLAYSTATION PINK minisite and emailings.
+    </span>
 
 <?php
     include("../_includes/footer_project.php");

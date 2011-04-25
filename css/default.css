@@ -186,6 +186,7 @@
         .mosaic {
             height:460px;
             overflow:hidden;
+            position:relative;
         }
         .line-container {
             position:relative;
@@ -290,6 +291,46 @@
         #content-bottom .keywords {
             left:260px;
         }
+
+    /**
+        PREV/NEXT
+    **/
+        .mosaic .mosaic-prev-top,
+        .mosaic .mosaic-prev-bottom,
+        .mosaic .mosaic-next-top,
+        .mosaic .mosaic-next-bottom {
+            position:absolute;
+            display:block;
+            overflow:hidden;
+            text-indent:-5000px;
+            top:0;
+
+            width:200px;
+            height:230px;
+
+            background:#ccc;
+            opacity:0;
+        }
+
+        .mosaic .mosaic-prev-top,
+        .mosaic .mosaic-prev-bottom {
+            left:0;
+        }
+        .mosaic .mosaic-next-top,
+        .mosaic .mosaic-next-bottom {
+            right:0;
+        }
+        .mosaic .mosaic-prev-bottom,
+        .mosaic .mosaic-next-bottom {
+            top:230px;
+        }
+        .mosaic .mosaic-prev-top.disable,
+        .mosaic .mosaic-prev-bottom.disable,
+        .mosaic .mosaic-next-top.disable,
+        .mosaic .mosaic-next-bottom.disable {
+            display:none;
+        }
+
 
 /**
     HAS JS Animation

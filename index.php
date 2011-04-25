@@ -190,7 +190,12 @@
                         ?>
                     </ul>
                 </div>
+
             </div>
+            <a href="/" class="mosaic-prev-top">PREV</a>
+            <a href="/" class="mosaic-prev-bottom">PREV</a>
+            <a href="/" class="mosaic-next-top">NEXT</a>
+            <a href="/" class="mosaic-next-bottom">NEXT</a>
             <span class="work-content">Click on one of the works below to see more details.</span>
 
         

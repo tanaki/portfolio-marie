@@ -6,7 +6,10 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li><img src="/img/projects/content/punchline/punchline_01.jpg" /></li>
+            <li>
+                <img src="/img/projects/content/punchline/punchline_01.jpg" />
+                <span class="caption">Coming Soon</span>
+            </li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
@@ -21,7 +24,12 @@
             <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">Punchline - This is the content</span>
+    <span class="work-content">
+        My role:  Art direction / Interactive design<br/>
+        FREELANCE<br/>
+        CLIENT: Punchline<br/><br/>
+        Creation of the Punchline website, Youssoupha’s new Teeshirt brand...
+    </span>
 
 <?php
     include("../_includes/footer_project.php");

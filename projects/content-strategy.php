@@ -6,9 +6,18 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li><img src="/img/projects/content/content-strategy/content-strategy_01.jpg" /></li>
-            <li><img src="/img/projects/content/content-strategy/content-strategy_02.jpg" /></li>
-            <li><img src="/img/projects/content/content-strategy/content-strategy_03.jpg" /></li>
+            <li>
+                <img src="/img/projects/content/content-strategy/content-strategy_01.jpg" />
+                <span class="caption">Web banners</span>
+            </li>
+            <li>
+                <img src="/img/projects/content/content-strategy/content-strategy_02.jpg" />
+                <span class="caption">Bag and Booklet</span>
+            </li>
+            <li>
+                <img src="/img/projects/content/content-strategy/content-strategy_03.jpg" />
+                <span class="caption">Large Banner</span>
+            </li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
@@ -23,7 +32,12 @@
             <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">Content Strategy - This is the content</span>
+    <span class="work-content">
+        My role:  Art direction<br/>
+        AGENCY: Duke/Avenue A Razorfish<br/>
+        CLIENT: Content Strategy Forum 2010<br/><br/>
+        Creation of banners for the 2010 Content strategy forum in Paris. This creation was turned into bags, badges and booklet.
+    </span>
 
 <?php
     include("../_includes/footer_project.php");

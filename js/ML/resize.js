@@ -60,6 +60,12 @@
             }
             $(".line-container:first").css("margin", margin);
             $(".line-container:last").css("margin", marginLast);
+
+            if( $(window).width() + 100 < $(".content-inner").width() ) {
+                $(".mosaic-prev-top, .mosaic-next-top, .mosaic-prev-bottom, .mosaic-next-bottom").removeClass("disable");
+            } else {
+                $(".mosaic-prev-top, .mosaic-next-top, .mosaic-prev-bottom, .mosaic-next-bottom").addClass("disable");
+            }
         }
     };
 

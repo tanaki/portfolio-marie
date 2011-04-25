@@ -4,7 +4,6 @@
         init : function( options ) {
 
             var self = this;
-            
             $("a", this)
                 .click(function(){
                     $.address.value($(this).attr('href'));

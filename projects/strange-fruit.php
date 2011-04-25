@@ -6,7 +6,10 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li><img src="/img/projects/content/strange-fruit/strange-fruit_01.jpg" /></li>
+            <li>
+                <img src="/img/projects/content/strange-fruit/strange-fruit_01.jpg" />
+                <span class="caption">Coming Soon</span>
+            </li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
@@ -21,7 +24,12 @@
             <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">Strange Fruit - 2011</span>
+    <span class="work-content">
+        My role:  Art direction / Interactive design<br/>
+        FREELANCE<br/>
+        CLIENT: Strange Fruit<br/><br/>
+        Creation of the Strange Fruit e-shop website...
+    </span>
 
 <?php
     include("../_includes/footer_project.php");

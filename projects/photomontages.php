@@ -23,7 +23,7 @@
             <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">Photomontage - This is the content</span>
+    <span class="work-content"></span>
 
 <?php
     include("../_includes/footer_project.php");

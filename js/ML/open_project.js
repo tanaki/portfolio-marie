@@ -32,6 +32,10 @@
 
                     $("#menu")
                         .MLMenu("open", 0);
+
+                    $("#menu #work .menu-link")
+                        .html($(".bottom-project-title").html());
+
                     $("#menu #work .menu-content")
                         .html($(".work-content").html());
 
@@ -56,12 +60,15 @@
                         .fadeIn(function(){
                             $(window).MLResize("home");
                             $(".mosaic").MLMosaic("display");
-                            $(".mosaic a").MLOpenProject();
+                            $(".mosaic ul a").MLOpenProject();
+
+                            $("#menu #work .menu-link")
+                                .html("work");
+                            $("#menu #work .menu-content")
+                                .html($(".work-content").html());
+                        
                             $(window).MLFont();
                         });
-                    
-                    $("#menu #work .menu-content")
-                        .html($(".work-content").html());
                 }
             );
         },
@@ -101,16 +108,17 @@
         },
 
         closeMosaic : function(target){
+
             $("#content-top").animate({
+//                marginLeft : $(window).width()
                 marginTop: 228
             });
 
             $("#content-bottom").animate({
+//                marginLeft : - $(window).width()
                 marginTop: -228
             }, function(){
-                $(".mosaic").fadeOut(function(){
-                    methods.open($(target).attr("href"));
-                });
+                methods.open($(target).attr("href"));
             });
         }
     }
