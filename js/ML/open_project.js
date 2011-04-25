@@ -68,7 +68,12 @@
 
         _initProject : function(){
             $("#content").fadeIn(100, function(){
-                var startValue = Math.ceil( $("ul.content-project li").length / 2);
+
+                $(window).MLResize("resize");
+                $("#footer-project").MLFooterProject();
+
+                var lis = $("ul.content-project li").length;
+                var startValue = Math.ceil( lis / 2);
                 $("ul.content-project")
                     .jcarousel({
                         start: startValue,

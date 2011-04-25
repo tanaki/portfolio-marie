@@ -275,7 +275,7 @@
         .keywords span {
             display: block;
             font-weight:bold;
-            background: #f09;
+            background: #f70064;
             color:#fff;
             text-decoration:none;
             text-transform:uppercase;
@@ -329,10 +329,20 @@
         margin-right:5px;
         opacity:0.6;
     }
-    ul.content-project li img {
+    ul.content-project li,
+    ul.content-project li img,
+    ul.content-project li .swf-container {
         display:block;
         width:1100px;
         height:435px;
+    }
+    ul.content-project li .swf-container {
+        background:#fff;
+        text-align:center;
+    }
+    ul.content-project li .swf-container iframe {
+        position:relative;
+        z-index:99;
     }
 
     .jcarousel-container {
@@ -423,32 +433,69 @@
     #footer-project ul li {
         float:left;
         margin-right:5px;
+        position:relative;
+    }
+    #footer-project ul li:hover {
+        z-index:99;
     }
 
-    #footer-project ul li a {
+    #footer-project ul li a.project-mini {
         display:block;
         overflow:hidden;
         width:59px;
         background:#000;
+        text-decoration:none;
 
         -moz-transform:skew(-45deg);
         -webkit-transform:skew(-45deg);
         -o-transform:skew(-45deg);
         -ms-transform:skew(-45deg);
     }
-    #footer-project ul li a span.content-project {
+    #footer-project ul li a.project-mini span.content-project {
         display:block;
-        
+
         -moz-transform:skew(45deg);
         -webkit-transform:skew(45deg);
         -o-transform:skew(45deg);
         -ms-transform:skew(45deg);
     }
-    #footer-project ul li a span.content-project img {
+    #footer-project ul li a.project-mini span.content-project img {
         display:block;
         margin-left:-29px;
         opacity:0.6;
     }
 
+    #footer-project ul li a.project-caption {
+        position:absolute;
+        top:22px;
+        left:-9px;
+        padding:0 0 0 30px;
+
+        opacity:0;
+        background: transparent url(/img/site/misc/bg_left-project-caption_24.png) no-repeat left top;
+        color:#fff;
+        
+        display: block;
+        font-weight:bold;
+        text-transform:uppercase;
+        text-decoration:none;
+        white-space:nowrap;
+    }    
+
+    #footer-project ul li a.project-caption span {
+        display:block;
+        padding-right:5px;
+        
+        background:#f70064;
+        font-size:12px;
+    }
+    #footer-project ul li a.project-caption span .cufon {
+        margin-top:-2px !important;
+    }
+
+    #footer-project ul li:hover a.project-mini span.content-project img,
+    #footer-project ul li:hover a.project-caption {
+        opacity:1;
+    }
 
 

@@ -13,6 +13,7 @@
             else $("#header").css("margin-top", 0);
 
             methods.background();
+            methods.footerBackground();
 
             if ( $.address.value() == "/" ) methods.home();
         },
@@ -34,6 +35,12 @@
                 "background-position" : (left +"px "+top+"px"),
                 "background-image" : "url(/img/site/misc/bg_global_24.png)"
             });
+        },
+
+        footerBackground : function() {
+            if ( !$("#footer-project ul").position() ) return;
+            var left = ($.browser.safari || $.browser.msie) ? parseInt($("#footer-project ul").css("margin-left")) : parseInt($("#footer-project ul").position().left);
+            $("#footer-project").css("background-position", (left + 60) + "px top");
         },
 
         home : function(){

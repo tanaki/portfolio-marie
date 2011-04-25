@@ -6,10 +6,25 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
+            <li>
+                <span class="swf-container">
+                    <span id="yummy-swf"></span>
+                    <script type="text/javascript">
+                        swfobject.embedSWF("/img/projects/content/yummy/dummy.swf", "yummy-swf", "1100", "435", "9.0.0", "/data/swf/expressInstall.swf");
+                    </script>
+                </span>
+            </li>
+            <li>
+                <span class="swf-container">
+                    <iframe src="http://player.vimeo.com/video/12290292?title=0&amp;byline=0&amp;portrait=0&amp;color=F70064" width="773" height="435" frameborder="0"></iframe>
+                </span>
+            </li>
             <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
+            <li>
+                <span class="swf-container">
+                    <iframe title="YouTube video player" width="720" height="435" src="http://www.youtube.com/embed/mCgDMyp4bug?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+                </span>
+            </li>
             <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
         </ul>
         <div class="arrows"></div>
@@ -29,9 +44,10 @@
             </div>
         </div>
     </div>
-    <span class="work-content">Monopoly - This is the content</span>
+    <span class="work-content">Yummy - This is the content</span>
 
 <?php
+    include("../_includes/footer_project.php");
     if ( !isset($_POST["noLayout"]) ) {
         include("../_includes/footer.php");
     }

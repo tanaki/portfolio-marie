@@ -32,6 +32,7 @@
     <span class="work-content">Monopoly - This is the content</span>
 
 <?php
+    include("../_includes/footer_project.php");
     if ( !isset($_POST["noLayout"]) ) {
         include("../_includes/footer.php");
     }

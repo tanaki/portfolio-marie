@@ -44,6 +44,7 @@
         <script src="/js/lib/jquery.easing.1.3.js" type="text/javascript"></script>
         <script src="/js/lib/jquery.jcarousel.min.js" type="text/javascript"></script>
         <script src="/js/lib/jquery.animateToClass.js" type="text/javascript"></script>
+        <script src="/js/lib/swfobject.js" type="text/javascript"></script>
 
         <script src="/js/ML/preload_images.js" type="text/javascript"></script>
         <script src="/js/ML/resize.js" type="text/javascript"></script>
@@ -52,6 +53,7 @@
         <script src="/js/ML/logo.js" type="text/javascript"></script>
         <script src="/js/ML/mosaic.js" type="text/javascript"></script>
         <script src="/js/ML/open_project.js" type="text/javascript"></script>
+        <script src="/js/ML/footer_project.js" type="text/javascript"></script>
         <script src="/js/ML/improved_carousel.js" type="text/javascript"></script>
         <script src="/js/ML/init.js" type="text/javascript"></script>
 

@@ -15,6 +15,17 @@
             max = carousel.size();
             currentValue = options.startValue;
             idAnimated = currentValue;
+
+            if (max == 1) {
+                $("li", self).css("opacity", 1);
+                $(".carousel-prev, .carousel-next")
+                    .css("cursor", "default")
+                    .click(function(){
+                        return false;
+                    });
+                return;
+            }
+
             methods._opacity(self);
             methods._updatePagin();
 
