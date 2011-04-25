@@ -83,17 +83,17 @@
                     <div id="header-right">
                         <ul id="menu">
                             <li id="work">
-                                <a href="#" data-index="0">Work</a>
+                                <a class="menu-link" href="#" data-index="0">Work</a>
                                 <span class="menu-content">Click on one of the works below to see more details.</span>
                             </li>
                             <li id="short-bio">
-                                <a href="#" data-index="1">Short Bio</a>
+                                <a class="menu-link" href="#" data-index="1">Short Bio</a>
                                 <span class="menu-content">
                                     Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco liquip ex ea consequat.
                                 </span>
                             </li>
                             <li id="skills">
-                                <a href="#" data-index="2">Skills</a>
+                                <a class="menu-link" href="#" data-index="2">Skills</a>
                                 <span class="menu-content">
                                     Art direction, User interface design, webdesign, flash animation...
                                     <br/><br/>
@@ -103,7 +103,7 @@
                                 </span>
                             </li>
                             <li id="credits" class="last">
-                                <a href="#" data-index="3">Credits</a>
+                                <a class="menu-link" href="#" data-index="3">Credits</a>
                                 <span class="menu-content">Lorem Ipsum</span>
                             </li>
                         </ul>

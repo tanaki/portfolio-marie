@@ -127,7 +127,7 @@
         #header-right li.last {
             margin-right:0;
         }
-        #header-right li a {
+        #header-right li a.menu-link {
             display:block;
             padding-left:5px
         }
@@ -136,6 +136,9 @@
             padding:5px;
             font-size: 12px;
             color:#494949;
+        }
+        #header-right li span.menu-content a {
+            color:#F977AC;
         }
 
 	
@@ -147,13 +150,13 @@
     }
     #menu li {
     }
-    #menu li a {
+    #menu li a.menu-link {
         background:#494949;
         color: #fff;
         text-decoration:none;
         text-transform:uppercase;
     }
-    #menu li a:hover,
+    #menu li a.menu-link:hover,
     #menu li a.current {
         color:#fff;
         background:#f70064;
@@ -376,6 +379,10 @@
         top:0;
         left:50%;
         margin-left:-550px;
+    }
+
+    .caption {
+        display:none;
     }
 
 /**

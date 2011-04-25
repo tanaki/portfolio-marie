@@ -4,7 +4,8 @@
         currentValue = 0,
         max = 0,
         idAnimated = 0,
-        carousel = null;
+        carousel = null,
+        currentLi = null;
 
     var methods = {
         init : function( options ) {
@@ -27,7 +28,7 @@
             }
 
             methods._opacity(self);
-            methods._updatePagin();
+            methods._updateAside();
 
             $(window).keyup(function(e){
                 if(e.keyCode == 37) {
@@ -111,13 +112,13 @@
             if(currentValue != idAnimated) return;
             currentValue = (currentValue > 0) ? (currentValue - 1) : max - 1;
             methods._opacity();
-            methods._updatePagin();
+            methods._updateAside();
         },
         _next : function(){
             if(currentValue != idAnimated) return;
             currentValue = (currentValue > max - 2) ? 0 : currentValue + 1;
             methods._opacity();
-            methods._updatePagin();
+            methods._updateAside();
         },
         _opacity : function(){
             $(".carousel-current-item")
@@ -125,7 +126,7 @@
                     "opacity": 0.6
                 });
 
-            var currentLi = $("li", context).get(currentValue);
+            currentLi = $("li", context).get(currentValue);
             $(currentLi)
                 .animate({
                     "opacity": 1
@@ -133,10 +134,23 @@
                     $(this).addClass("carousel-current-item");
                 });
         },
+        _updateAside : function(){
+            methods._updatePagin();
+            methods._updateCaption();
+            methods._updateFont();
+        },
         _updatePagin : function(){
             $(".carousel-pagin").html((currentValue+1) + "/" + max );
+        },
+        _updateCaption : function(){
+            $(".bottom-project-desc").html( $(".caption", currentLi).html() );
+        },
+        _updateFont : function(){
             Cufon.replace(".carousel-pagin", {
                 fontFamily: 'Helvetica Neue'
+            });
+            Cufon.replace(".bottom-project-desc", {
+                fontFamily: 'HelveticaNeueClassic'
             });
         }
     };

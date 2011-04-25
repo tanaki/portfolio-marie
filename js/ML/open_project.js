@@ -73,7 +73,7 @@
                 $("#footer-project").MLFooterProject();
 
                 var lis = $("ul.content-project li").length;
-                var startValue = Math.ceil( lis / 2);
+                var startValue = 1;//Math.ceil( lis / 2);
                 $("ul.content-project")
                     .jcarousel({
                         start: startValue,
