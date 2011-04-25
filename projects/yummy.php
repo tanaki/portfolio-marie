@@ -6,7 +6,7 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li>
+            <!--li>
                 <span class="swf-container">
                     <span id="yummy-swf"></span>
                     <script type="text/javascript">
@@ -20,20 +20,30 @@
                     <iframe src="http://player.vimeo.com/video/12290292?title=0&amp;byline=0&amp;portrait=0&amp;color=F70064" width="773" height="435" frameborder="0"></iframe>
                 </span>
                 <span class="caption">Caption 2</span>
+            </li-->
+            <li>
+                <img src="/img/projects/content/yummy/yummy_03.jpg" />
             </li>
             <li>
-                <img src="/img/projects/content/yummy/yummy-1.jpg" />
-                <span class="caption">Caption 3</span>
+                <img src="/img/projects/content/yummy/yummy_04.jpg" />
             </li>
             <li>
-                <span class="swf-container">
-                    <iframe title="YouTube video player" width="720" height="435" src="http://www.youtube.com/embed/mCgDMyp4bug?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
-                </span>
-                <span class="caption">Caption 1</span>
+                <img src="/img/projects/content/yummy/yummy_05.jpg" />
             </li>
             <li>
-                <img src="/img/projects/content/yummy/yummy-1.jpg" />
-                <span class="caption">Caption 1</span>
+                <img src="/img/projects/content/yummy/yummy_06.jpg" />
+            </li>
+            <li>
+                <img src="/img/projects/content/yummy/yummy_07.jpg" />
+            </li>
+            <li>
+                <img src="/img/projects/content/yummy/yummy_08.jpg" />
+            </li>
+            <li>
+                <img src="/img/projects/content/yummy/yummy_09.jpg" />
+            </li>
+            <li>
+                <img src="/img/projects/content/yummy/yummy_10.jpg" />
             </li>
         </ul>
         <div class="arrows"></div>

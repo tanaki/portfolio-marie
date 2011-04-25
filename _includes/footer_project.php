@@ -5,10 +5,6 @@
 
             $aProjects = array(
                 array(
-                    "title" => "Levis",
-                    "slug" => "levis"
-                ),
-                array(
                     "title" => "Strange Fruit",
                     "slug" => "strange-fruit"
                 ),
@@ -21,40 +17,56 @@
                     "slug" => "yummy"
                 ),
                 array(
-                    "title" => "Monopoly",
-                    "slug" => "monopoly"
+                    "title" => "Howbama",
+                    "slug" => "howbama"
+                ),
+                array(
+                    "title" => "Ace",
+                    "slug" => "ace"
                 ),
                 array(
                     "title" => "Costain",
                     "slug" => "costain"
                 ),
                 array(
+                    "title" => "Sony Headphones",
+                    "slug" => "sony-headphones"
+                ),
+                array(
+                    "title" => "Sony V.R",
+                    "slug" => "sony-voice-recorders"
+                ),
+                array(
+                    "title" => "McDo Monopoly",
+                    "slug" => "mcdo-monopoly"
+                ),
+                array(
+                    "title" => "Content Strategy",
+                    "slug" => "content-strategy"
+                ),
+                array(
+                    "title" => "Levis Banners",
+                    "slug" => "levis-banners"
+                ),
+                array(
                     "title" => "Levis Black",
                     "slug" => "levis-black"
-                ),
-                array(
-                    "title" => "Drawings",
-                    "slug" => "drawings"
-                ),
-                array(
-                    "title" => "Howbama",
-                    "slug" => "howbama"
-                ),
-                array(
-                    "title" => "Sony",
-                    "slug" => "sony"
                 ),
                 array(
                     "title" => "Levis Kids",
                     "slug" => "levis-kids"
                 ),
                 array(
-                    "title" => "Playstation",
-                    "slug" => "playstation"
+                    "title" => "Playstation Pink",
+                    "slug" => "playstation-pink"
                 ),
                 array(
-                    "title" => "Photomontage",
-                    "slug" => "photomontage"
+                    "title" => "Drawings",
+                    "slug" => "drawings"
+                ),
+                array(
+                    "title" => "Photomontages",
+                    "slug" => "photomontages"
                 )
             );
 

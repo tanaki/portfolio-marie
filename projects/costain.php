@@ -6,11 +6,10 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
+            <li><img src="/img/projects/content/costain/costain_01.jpg" /></li>
+            <li><img src="/img/projects/content/costain/costain_02.jpg" /></li>
+            <li><img src="/img/projects/content/costain/costain_03.jpg" /></li>
+            <li><img src="/img/projects/content/costain/costain_04.jpg" /></li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>

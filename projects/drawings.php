@@ -6,11 +6,12 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
+            <li><img src="/img/projects/content/drawings/drawings_01.jpg" /></li>
+            <li><img src="/img/projects/content/drawings/drawings_02.jpg" /></li>
+            <li><img src="/img/projects/content/drawings/drawings_03.jpg" /></li>
+            <li><img src="/img/projects/content/drawings/drawings_04.jpg" /></li>
+            <li><img src="/img/projects/content/drawings/drawings_05.jpg" /></li>
+            <li><img src="/img/projects/content/drawings/drawings_06.jpg" /></li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
@@ -29,8 +30,7 @@
             </div>
         </div>
     </div>
-    <span class="work-content">Monopoly - This is the content</span>
-
+    <span class="work-content">Drawings</span>
 <?php
     include("../_includes/footer_project.php");
     if ( !isset($_POST["noLayout"]) ) {

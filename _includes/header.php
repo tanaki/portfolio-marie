@@ -19,22 +19,17 @@
             var aImages = [
                 "/img/site/misc/icon_logo_24.png",
 
-                "/img/projects/thumbs/levis_24.png",
                 "/img/projects/thumbs/strange-fruit_24.png",
                 "/img/projects/thumbs/punchline_24.png",
                 "/img/projects/thumbs/yummy_24.png",
-                "/img/projects/thumbs/monopoly_24.png",
+                "/img/projects/thumbs/mcdo-monopoly_24.png",
                 "/img/projects/thumbs/costain_24.png",
                 "/img/projects/thumbs/levis-black_24.png",
                 "/img/projects/thumbs/drawings_24.png",
                 "/img/projects/thumbs/howbama_24.png",
-                "/img/projects/thumbs/sony_24.png",
                 "/img/projects/thumbs/levis-kids_24.png",
-                "/img/projects/thumbs/playstation_24.png",
-                "/img/projects/thumbs/photomontage_24.png",
-                "/img/projects/thumbs/strategy_24.png",
-
-                "/img/projects/content/yummy/yummy-1.jpg"    
+                "/img/projects/thumbs/playstation-pink_24.png",
+                "/img/projects/thumbs/photomontages_24.png",
 
             ];
         </script>

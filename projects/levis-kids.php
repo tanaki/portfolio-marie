@@ -6,11 +6,10 @@
 ?>
     <div class="container-project">
         <ul class="content-project">
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
-            <li><img src="/img/projects/content/yummy/yummy-1.jpg" /></li>
+            <li><img src="/img/projects/content/levis-kids/levis-kids_01.jpg" /></li>
+            <li><img src="/img/projects/content/levis-kids/levis-kids_02.jpg" /></li>
+            <li><img src="/img/projects/content/levis-kids/levis-kids_03.jpg" /></li>
+            <li><img src="/img/projects/content/levis-kids/levis-kids_04.jpg" /></li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>
@@ -18,18 +17,14 @@
     </div>
     <div class="bottom-project">
         <div class="bottom-project-inner">
-            <div class="carousel-pagin">
-                
-            </div>
+            <div class="carousel-pagin"></div>
             <div class="bottom-project-title">
                 Levis Kids
             </div>
-            <div class="bottom-project-desc">
-                2010 - Site web
-            </div>
+            <div class="bottom-project-desc"></div>
         </div>
     </div>
-    <span class="work-content">Monopoly - This is the content</span>
+    <span class="work-content">Levis Kids - This is the content</span>
 
 <?php
     include("../_includes/footer_project.php");

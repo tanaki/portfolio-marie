@@ -11,14 +11,6 @@
                         <?php
                             $projectsTop = array(
                                 array(
-                                    "title" => "Levis",
-                                    "client" => "Duke",
-                                    "slug" => "levis",
-                                    "keywords" => array(
-                                        "Web"
-                                    )
-                                ),
-                                array(
                                     "title" => "Strange Fruit",
                                     "client" => "Freelance",
                                     "slug" => "strange-fruit",
@@ -43,9 +35,17 @@
                                     )
                                 ),
                                 array(
-                                    "title" => "Monopoly",
-                                    "client" => "Duke",
-                                    "slug" => "monopoly",
+                                    "title" => "Howbama",
+                                    "client" => "Gobelins",
+                                    "slug" => "howbama",
+                                    "keywords" => array(
+                                        "Air Application", "Web"
+                                    )
+                                ),
+                                array(
+                                    "title" => "Ace",
+                                    "client" => "Tonic",
+                                    "slug" => "ace",
                                     "keywords" => array(
                                         "Web"
                                     )
@@ -59,19 +59,19 @@
                                     )
                                 ),
                                 array(
-                                    "title" => "Levis Black",
+                                    "title" => "Sony Headphones",
                                     "client" => "Duke",
-                                    "slug" => "levis-black",
+                                    "slug" => "sony-headphones",
                                     "keywords" => array(
                                         "Web"
                                     )
                                 ),
                                 array(
-                                    "title" => "TBD",
-                                    "client" => "TBD",
-                                    "slug" => "tbd",
+                                    "title" => "Sony V.R",
+                                    "client" => "Tonic",
+                                    "slug" => "sony-voice-recorders",
                                     "keywords" => array(
-                                        "TBD"
+                                        "Web"
                                     )
                                 )
                             );
@@ -105,23 +105,33 @@
                         <?php
                             $projectsBottom = array(
                                 array(
-                                    "title" => "Drawings",
-                                    "client" => "Personal",
-                                    "slug" => "drawings",
-                                    "keywords" => array()
-                                ),
-                                array(
-                                    "title" => "Howbama",
-                                    "client" => "Gobelins",
-                                    "slug" => "howbama",
+                                    "title" => "McDo Monopoly",
+                                    "client" => "Tonic",
+                                    "slug" => "mcdo-monopoly",
                                     "keywords" => array(
-                                        "Air Application", "Web"
+                                        "Web"
                                     )
                                 ),
                                 array(
-                                    "title" => "Sony",
+                                    "title" => "Content Strategy",
                                     "client" => "Tonic",
-                                    "slug" => "sony",
+                                    "slug" => "content-strategy",
+                                    "keywords" => array(
+                                        "Print"
+                                    )
+                                ),
+                                array(
+                                    "title" => "Levis Banner",
+                                    "client" => "Duke",
+                                    "slug" => "levis-banners",
+                                    "keywords" => array(
+                                        "Web"
+                                    )
+                                ),
+                                array(
+                                    "title" => "Levis Black",
+                                    "client" => "Duke",
+                                    "slug" => "levis-black",
                                     "keywords" => array(
                                         "Web"
                                     )
@@ -135,34 +145,24 @@
                                     )
                                 ),
                                 array(
-                                    "title" => "Playstation",
+                                    "title" => "Playstation Pink",
                                     "client" => "Duke",
-                                    "slug" => "playstation",
+                                    "slug" => "playstation-pink",
                                     "keywords" => array(
                                         "Web"
                                     )
                                 ),
                                 array(
-                                    "title" => "Photomontage",
+                                    "title" => "Drawings",
                                     "client" => "Personal",
-                                    "slug" => "photomontage",
+                                    "slug" => "drawings",
                                     "keywords" => array()
                                 ),
                                 array(
-                                    "title" => "Strategy",
-                                    "client" => "Tonic",
-                                    "slug" => "strategy",
-                                    "keywords" => array(
-                                        "Print"
-                                    )
-                                ),
-                                array(
-                                    "title" => "TBD",
-                                    "client" => "TBD",
-                                    "slug" => "tbd",
-                                    "keywords" => array(
-                                        "TBD"
-                                    )
+                                    "title" => "Photomontages",
+                                    "client" => "Personal",
+                                    "slug" => "photomontages",
+                                    "keywords" => array()
                                 )
                             );
 
