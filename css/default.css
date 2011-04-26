@@ -10,6 +10,10 @@
         background:#c8c8c8;
     }
 
+    a {
+        outline:0;
+    }
+
 /**
 	WRAPPER
 **/
@@ -22,8 +26,13 @@
 /**
 	LOADER
 **/
-    #loading {
-        height: 100%;
+    #loader {
+        width:1%;
+        height:10px;
+        background:#f70064;
+        position:absolute;
+        bottom:0;
+        left:0;
     }
 
 /**
@@ -336,7 +345,7 @@
     HAS JS Animation
 **/
     .hasJS #content {
-        width:0;
+        
     }
 
     .hasJS #header-left,
@@ -401,6 +410,7 @@
         height:435px;
         overflow:hidden;
         text-indent:-5000px;
+        outline:0;
 
         position:absolute;
         top:0;

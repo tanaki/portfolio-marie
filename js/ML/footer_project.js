@@ -6,8 +6,10 @@
             var self = this;
             $("a", this)
                 .click(function(){
-                    $.address.value($(this).attr('href'));
-                    $(window).MLOpenProject("open", $(this).attr("href"));
+                    var target = $(this).attr('href');
+                    if( $.address.value() == target) return false;
+                    $.address.value(target);
+                    $(window).MLOpenProject("open", target);
                     return false;
                 });
 

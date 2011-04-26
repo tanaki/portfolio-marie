@@ -2,7 +2,7 @@
 
     var methods = {
         init : function( options ) {
-            Cufon.replace('#header a, .keywords span', {
+            Cufon.replace('#header .menu-link, #resume, .keywords span', {
                 hover : true,
                 fontFamily: 'Helvetica Neue'
             });

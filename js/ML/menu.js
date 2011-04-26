@@ -12,7 +12,7 @@
 
             lis = $("li", self);
             context = this;
-            $("a", self).click(function(){
+            $(".menu-link", self).click(function(){
 
                 var index = $(this).data("index");
                 if ( isAnimating ) return false;

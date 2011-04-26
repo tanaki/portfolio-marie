@@ -22,6 +22,24 @@
                 <img src="/img/projects/content/costain/costain_04.jpg" />
                 <span class="caption">Story part 3</span>
             </li>
+            <li>
+                <span class="swf-container">
+                    <span id="costain-05-swf"></span>
+                    <script type="text/javascript">
+                        swfobject.embedSWF("/img/projects/content/costain/costain_05.swf", "costain-05-swf", "667", "435", "9.0.0", "/data/swf/expressInstall.swf");
+                    </script>
+                </span>
+                <span class="caption">Prototype in AS3</span>
+            </li>
+            <li>
+                <span class="swf-container" style="padding-top:140px;">
+                    <span id="costain-06-swf"></span>
+                    <script type="text/javascript">
+                        swfobject.embedSWF("/img/projects/content/costain/costain_06.swf", "costain-06-swf", "160", "160", "9.0.0", "/data/swf/expressInstall.swf");
+                    </script>
+                </span>
+                <span class="caption">Loader in AS3</span>
+            </li>
         </ul>
         <div class="arrows"></div>
         <a href="#" class="carousel-prev">PREV</a>

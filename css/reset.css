@@ -60,7 +60,7 @@ input, select { vertical-align:middle; }
 
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
 a:active { outline: none; }
-a:focus { outline: thin dotted; }
+a:focus { outline: none; }
 
 
 ul { margin-left:0; list-style:none; }

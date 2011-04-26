@@ -34,14 +34,16 @@ $(window).bind({
 });
 
 function loadedItem(e, o){
-    $("#content")
+    $("#loader")
         .animate({
             "width" : (o.index * 100 / o.len) + "%"
         }, 20);
 }
 
 function loadComplete(){
-    $("#menu").MLMenu("display");
+    $("#loader").fadeOut(300, function(){
+       $("#menu").MLMenu("display");
+    });
 }
 
 function navDisplayed(){

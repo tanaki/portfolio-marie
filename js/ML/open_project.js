@@ -88,6 +88,7 @@
                         wrap : "both",
                         animation : 800,
                         easing : "easeInOutSine",
+                        itemFallbackDimension : 1100,
                         itemVisibleInCallback : {
                             onBeforeAnimation : function(){
                                 $(window).trigger("IS_ANIMATING");

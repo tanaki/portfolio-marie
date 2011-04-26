@@ -15,7 +15,9 @@
             methods.background();
             methods.footerBackground();
 
-            if ( $.address.value() == "/" ) methods.home();
+            if ( $.address.value() == "/" ) {
+                methods.home();
+            }
         },
 
         background : function(){

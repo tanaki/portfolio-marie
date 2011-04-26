@@ -11,6 +11,15 @@
                 <span class="caption">Levi's Flash banner</span>
             </li>
             <li>
+                <span class="swf-container" style="padding-top:35px;">
+                    <span id="levis-black-02-swf"></span>
+                    <script type="text/javascript">
+                        swfobject.embedSWF("/img/projects/content/levis-black/levis-black_02.swf", "levis-black-02-swf", "545", "365", "9.0.0", "/data/swf/expressInstall.swf");
+                    </script>
+                </span>
+                <span class="caption">Banner in AS3</span>
+            </li>
+            <li>
                 <img src="/img/projects/content/levis-black/levis-black_03.jpg" />
                 <span class="caption">Levi's Email and banners</span>
             </li>
