@@ -63,7 +63,7 @@
             <strong>My role</strong>:  Illustration / Design / Storyboarding / Design interaction<br/>
             <strong>Agency</strong>: Tonic<br/>
             <strong>Client</strong>: Costain<br/><br/>
-            Creation of storyboard, mockup and assets for the Costain new website...
+            Creation of storyboard, mockup and assets for the Costain new website. <a href="http://www.costain.com/annual-report-2010/meeting-national-needs.aspx" target="_blank">Visit website</a>
         </span>
     </div>
 

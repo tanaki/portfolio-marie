@@ -2,6 +2,9 @@
 <html lang="en" class="noJS">
     <head>
         <meta charset="utf-8" />
+        <link rel="icon" type="image/gif" href="favicon_2.gif" />
+        <link rel="shortcut icon" type="image/gif" href="favicon_2.gif" />
+
         <title>Marie Laurent - Interactive and Graphic Designer</title>
 
         <link rel="stylesheet" href="/css/reset.css" type="text/css" />
