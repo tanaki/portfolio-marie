@@ -6,7 +6,7 @@
                 hover : true,
                 fontFamily: 'Helvetica Neue'
             });
-            Cufon.replace('#menu span.menu-content', {
+            Cufon.replace('#menu span.menu-content, #copyright', {
                 fontFamily: 'HelveticaNeueClassic'
             });
         },

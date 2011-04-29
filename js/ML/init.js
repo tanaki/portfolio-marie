@@ -9,6 +9,9 @@ $(window).ready(function(){
         .removeClass("noJS")
         .addClass("hasJS");
 
+    if ( $.browser.mozilla ) $("html").removeClass("ff");
+    if (navigator.appVersion.indexOf("Mac")!=-1) $("html").removeClass("mac");
+
     // preload Images
     $(window).MLPreloadImages();
 
@@ -19,12 +22,12 @@ $(window).ready(function(){
     $(window).MLResize("resize");
 
     // prevent mailto issue in Chrome
-    if( /chrome/gi.test(navigator.userAgent) ) {
-        $("#mail a").click(function(){
-            prompt("Direct mail links don't seem to work on Chrome, Please use your usual way to send an email at :", "mawielauwent@gmail.com");
-            return false;
-        });
-    }
+//    if( /chrome/gi.test(navigator.userAgent) ) {
+//        $("#mail a").click(function(){
+//            prompt("Direct mail links don't seem to work on Chrome, Please use your usual way to send an email at :", "mawielauwent@gmail.com");
+//            return false;
+//        });
+//    }
 });
 
 $(window).bind({
@@ -42,7 +45,7 @@ function loadedItem(e, o){
 
 function loadComplete(){
     $("#loader").fadeOut(300, function(){
-       $("#menu").MLMenu("display");
+        $("#menu").MLMenu("display");
     });
 }
 

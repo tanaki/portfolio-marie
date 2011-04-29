@@ -49,7 +49,7 @@
             }, function(){
                 var $span = $( "span", this);
                 $span.css("display", "block");
-                var marginTop = $span.height() > 0 ? 120 - $span.height() : 135;
+                var marginTop = $span.height() > 0 ? 125 - $span.height() : 135;
                 $(this).animate({
                     "margin-top" : marginTop
                 }, function(){
@@ -76,6 +76,7 @@
         display : function(){
             var lis = $("#menu li");
             $("#header-left").fadeIn(300, function(){
+                $("#copyright").fadeIn();
                 lis.each(function(i, el){
                     $(el).delay(i*100).fadeIn(200, function(){
                         if( i == lis.length-1 ) {

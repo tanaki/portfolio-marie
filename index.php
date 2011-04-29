@@ -47,7 +47,7 @@
                                     "client" => "Tonic",
                                     "slug" => "ace",
                                     "keywords" => array(
-                                        "Web"
+                                        "Web", "Print"
                                     )
                                 ),
                                 array(
@@ -117,7 +117,7 @@
                                     "client" => "Tonic",
                                     "slug" => "content-strategy",
                                     "keywords" => array(
-                                        "Print"
+                                        "Web"
                                     )
                                 ),
                                 array(

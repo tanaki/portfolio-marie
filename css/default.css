@@ -68,20 +68,20 @@
             display:block;
         }
         #header-left #resume {
-            background:#494949;
+            background:#fff;
             margin-right: 5px;
             padding:0 7px;
         }
         #header-left #resume a {
-            color:#fff;
+            color:#f70064;
             text-decoration:none;
             text-transform:uppercase;
         }
         #header-left #resume:hover {
-            background:#fff;
+            background:#f70064;
         }
         #header-left #resume a:hover {
-            color:#f70064;
+            color:#fff;
         }
 
         #header-left #mail a,
@@ -138,7 +138,7 @@
         }
         #header-right li a.menu-link {
             display:block;
-            padding-left:5px
+            padding-left:5px;
         }
         #header-right li span.menu-content {
             display:none;
@@ -147,7 +147,8 @@
             color:#494949;
         }
         #header-right li span.menu-content a {
-            color:#F977AC;
+            color:#F70064;
+            text-decoration:none;
         }
 
 	
@@ -557,3 +558,32 @@
     }
 
 
+
+/**
+    Copyright
+**/
+    #copyright {
+        position:absolute;
+        top:0;
+        right:0;
+        color:#8d8989;
+        font-size:11px;
+        background:#e0e0e0;
+        padding: 10px;
+        display:none;
+    }
+
+
+
+/**
+    MAC // FF
+**/
+
+    .mac.ff .keywords span {
+        font-weight:normal;
+    }
+
+    .mac #header-right li a.menu-link,
+    .mac #header-left #resume {
+        padding-top:2px;
+    }

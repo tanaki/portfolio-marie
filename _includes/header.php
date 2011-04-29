@@ -11,13 +11,16 @@
         <script src="/js/lib/plugins.min.js" type="text/javascript"></script>
 
         <script src="/js/font/cufon-yui.js" type="text/javascript"></script>
-        <script src="/js/font/HelveticaNeueClassic_400.font.js" type="text/javascript"></script>
+        <script src="/js/font/HelveticaNeueClassic_400-HelveticaNeueClassic_700.font.js" type="text/javascript"></script>
         <script src="/js/font/Helvetica_Neue_500-Helvetica_Neue_700.font.js" type="text/javascript"></script>
 
         <script type="text/javascript">
             // preload images
             var aImages = [
-                "/img/site/misc/icon_logo_24.png",
+                "/img/site/misc/icon_logo_24.png"
+            ];
+
+			var aImagesProject = [
                 "/img/site/misc/bg_global_24.png",
 
                 "/img/projects/thumbs/strange-fruit_24.png",
@@ -50,10 +53,7 @@
                 "/img/projects/mini/levis-kids_24.png",
                 "/img/projects/mini/playstation-pink_24.png",
                 "/img/projects/mini/drawings_24.png",
-                "/img/projects/mini/photomontages_24.png"
-            ];
-			
-			var aImagesProject = [
+                "/img/projects/mini/photomontages_24.png",
 			
 				"/img/projects/content/ace/ace_01.jpg",
 				
@@ -127,7 +127,18 @@
                 all : function(){}
             });
         </script>
-		<script src="/js/ML/plugins.min.js" type="text/javascript"></script>
+		<!--script src="/js/ML/plugins.min.js" type="text/javascript"></script-->
+		<script src="/js/ML/font.js" type="text/javascript"></script>
+		<script src="/js/ML/footer_project.js" type="text/javascript"></script>
+		<script src="/js/ML/improved_carousel.js" type="text/javascript"></script>
+		<script src="/js/ML/logo.js" type="text/javascript"></script>
+		<script src="/js/ML/menu.js" type="text/javascript"></script>
+		<script src="/js/ML/mosaic.js" type="text/javascript"></script>
+		<script src="/js/ML/open_project.js" type="text/javascript"></script>
+		<script src="/js/ML/preload_images.js" type="text/javascript"></script>
+		<script src="/js/ML/resize.js" type="text/javascript"></script>
+
+		<script src="/js/ML/init.js" type="text/javascript"></script>
 		
 		<script type="text/javascript">
 
@@ -176,26 +187,25 @@
                                 <a class="menu-link" href="#" data-index="1">Short Bio</a>
                                 <span class="menu-content">
                                     Hello!<br/>
-                                    My name is Marie Laurent, I’m a 24 years old interactive and graphic designer.<br/>
-                                    I graduated with a master's degree in digital design and production from Gobelins in 2010.<br/>
-                                    I just finish a 6 month internship at Tonic London, and I’m currently looking for a full time position in London.<br/>
+                                    My name is Marie Laurent, I am a 24 years old interactive and graphic designer.<br/>
+                                    I graduated with a master's degree in digital design and production from Gobelins, Paris in 2010.<br/>
+                                    I just finished a 6 month internship at Tonic London, and I am currently looking for a full time position in London.<br/>
                                     Please feel free to get in touch with me!
                                 </span>
                             </li>
                             <li id="skills">
                                 <a class="menu-link" href="#" data-index="2">Skills</a>
                                 <span class="menu-content">
-                                    Art direction, User interface design, webdesign, flash animation...
+                                    Art direction, user interface design, webdesign, flash animation, illustration...
                                     <br/><br/>
-                                    TOOLS<br/>
-                                    Sketches, wireframes, storyboards, mock-ups...<br/>
-                                    Type of projects : websites, web-apps, mobile applications...
+                                    <strong>Tools</strong>: Sketches, wireframes, storyboards, mock-ups...<br/>
+                                    <strong>Projects</strong>: Websites, web-apps, mobile applications...
                                 </span>
                             </li>
                             <li id="credits" class="last">
                                 <a class="menu-link" href="#" data-index="3">Credits</a>
                                 <span class="menu-content">
-                                    Art direction: Marie Laurent<br/>
+                                    Art direction: <a href="mailto:mawielauwent@gmail.com">Marie Laurent</a><br/>
                                     Developement: <a target="_blank" href="http://www.nicolaspigelet.com/">Nicolas Pigelet</a>
                                 </span>
                             </li>

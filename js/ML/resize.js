@@ -29,10 +29,8 @@
 
             // background position
             var top = $("#logo").position().top - 73;
-            var left = $("#logo").position().left - 353;
-            if( $(window).width() < $(".content-inner").width() ) {
-                left = Math.round( ( $(window).width() - $(".content-inner").width() ) / 2) + 13;
-            }
+            var left = Math.round( ( $(window).width() - $(".content-inner").width() ) / 2) + 13;
+            if ( $.address.value() != "/" ) left -= 8;
             $("#wrapper").css({
                 "background-position" : (left +"px "+top+"px"),
                 "background-image" : "url(/img/site/misc/bg_global_24.png)"
