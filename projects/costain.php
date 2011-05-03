@@ -9,34 +9,50 @@
             <ul class="content-project">
                 <li>
                     <img src="/img/projects/content/costain/costain_01.jpg" />
-                    <span class="caption">Storyboard/Mockup, full story</span>
+                    <span class="caption">Sunny illustration</span>
                 </li>
                 <li>
                     <img src="/img/projects/content/costain/costain_02.jpg" />
-                    <span class="caption">Story part 1</span>
+                    <span class="caption">Rainy illustration</span>
                 </li>
                 <li>
                     <img src="/img/projects/content/costain/costain_03.jpg" />
-                    <span class="caption">Story part 2</span>
+                    <span class="caption">Website</span>
                 </li>
                 <li>
                     <img src="/img/projects/content/costain/costain_04.jpg" />
+                    <span class="caption">Website</span>
+                </li>
+                <li>
+                    <img src="/img/projects/content/costain/costain_05.jpg" />
+                    <span class="caption">Storyboard/Mockup, full story</span>
+                </li>
+                <li>
+                    <img src="/img/projects/content/costain/costain_06.jpg" />
+                    <span class="caption">Story part 1</span>
+                </li>
+                <li>
+                    <img src="/img/projects/content/costain/costain_07.jpg" />
+                    <span class="caption">Story part 2</span>
+                </li>
+                <li>
+                    <img src="/img/projects/content/costain/costain_08.jpg" />
                     <span class="caption">Story part 3</span>
                 </li>
                 <li>
                     <span class="swf-container">
-                        <span id="costain-05-swf"></span>
+                        <span id="costain-09-swf"></span>
                         <script type="text/javascript">
-                            swfobject.embedSWF("/img/projects/content/costain/costain_05.swf", "costain-05-swf", "667", "435", "9.0.0", "/data/swf/expressInstall.swf");
+                            swfobject.embedSWF("/img/projects/content/costain/costain_09.swf", "costain-09-swf", "667", "435", "9.0.0", "/data/swf/expressInstall.swf");
                         </script>
                     </span>
                     <span class="caption">Prototype in AS3</span>
                 </li>
                 <li>
                     <span class="swf-container" style="padding-top:140px;">
-                        <span id="costain-06-swf"></span>
+                        <span id="costain-10-swf"></span>
                         <script type="text/javascript">
-                            swfobject.embedSWF("/img/projects/content/costain/costain_06.swf", "costain-06-swf", "160", "160", "9.0.0", "/data/swf/expressInstall.swf");
+                            swfobject.embedSWF("/img/projects/content/costain/costain_10.swf", "costain-10-swf", "160", "160", "9.0.0", "/data/swf/expressInstall.swf");
                         </script>
                     </span>
                     <span class="caption">Loader in AS3</span>

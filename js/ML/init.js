@@ -9,8 +9,9 @@ $(window).ready(function(){
         .removeClass("noJS")
         .addClass("hasJS");
 
-    if ( $.browser.mozilla ) $("html").removeClass("ff");
-    if (navigator.appVersion.indexOf("Mac")!=-1) $("html").removeClass("mac");
+    if ( $.browser.mozilla ) $("html").addClass("ff");
+    if ( $.browser.webkit ) $("html").addClass("webkit");
+    if (navigator.appVersion.indexOf("Mac")!=-1) $("html").addClass("mac");
 
     // preload Images
     $(window).MLPreloadImages();

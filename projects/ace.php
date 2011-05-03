@@ -9,7 +9,23 @@
             <ul class="content-project">
                 <li>
                     <img src="/img/projects/content/ace/ace_01.jpg" />
-                    <span class="caption">Coming Soon</span>
+                    <span class="caption">Ace carton story</span>
+                </li>
+                <li>
+                    <img src="/img/projects/content/ace/ace_02.jpg" />
+                    <span class="caption">Ace carton story</span>
+                </li>
+                <li>
+                    <img src="/img/projects/content/ace/ace_03.jpg" />
+                    <span class="caption">Ace carton story</span>
+                </li>
+                <li>
+                    <img src="/img/projects/content/ace/ace_04.jpg" />
+                    <span class="caption">Ace carton story</span>
+                </li>
+                <li>
+                    <img src="/img/projects/content/ace/ace_05.jpg" />
+                    <span class="caption">Business card</span>
                 </li>
             </ul>
             <div class="arrows"></div>

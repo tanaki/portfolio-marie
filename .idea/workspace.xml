@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/ML/init.js" line="33" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/js/ML/init.js" line="34" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2b4d7d-b1f8-4021-bf59-81cd3ceae7f7" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\wamp\www\2011_portfolio_marie\img\projects\content\costain\costain_05.swf" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp\www\2011_portfolio_marie\img\projects\content\costain\costain_06.swf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/projects/content/ace/ace_01.jpg" afterPath="$PROJECT_DIR$/img/projects/content/ace/ace_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/projects/content/costain/costain_01.jpg" afterPath="$PROJECT_DIR$/img/projects/content/costain/costain_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/projects/content/costain/costain_02.jpg" afterPath="$PROJECT_DIR$/img/projects/content/costain/costain_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/projects/content/costain/costain_03.jpg" afterPath="$PROJECT_DIR$/img/projects/content/costain/costain_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/projects/content/costain/costain_04.jpg" afterPath="$PROJECT_DIR$/img/projects/content/costain/costain_04.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/projects/content/sony-headphones/sony-headphones_01.jpg" afterPath="$PROJECT_DIR$/img/projects/content/sony-headphones/sony-headphones_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/projects/content/sony-voice-recorders/sony-voice-recorders_01.jpg" afterPath="$PROJECT_DIR$/img/projects/content/sony-voice-recorders/sony-voice-recorders_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/projects/mini/ace_24.png" afterPath="$PROJECT_DIR$/img/projects/mini/ace_24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/projects/thumbs/ace_24.png" afterPath="$PROJECT_DIR$/img/projects/thumbs/ace_24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.php" afterPath="$PROJECT_DIR$/_includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ML/init.js" afterPath="$PROJECT_DIR$/js/ML/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/ace.php" afterPath="$PROJECT_DIR$/projects/ace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/costain.php" afterPath="$PROJECT_DIR$/projects/costain.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sony-headphones.php" afterPath="$PROJECT_DIR$/projects/sony-headphones.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sony-voice-recorders.php" afterPath="$PROJECT_DIR$/projects/sony-voice-recorders.php" />
     </list>
     <ignored path="2011_portfolio_marie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,37 +46,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="57" selection-start="147" selection-end="147" vertical-scroll-proportion="0.086513996">
+            <state line="54" column="56" selection-start="2669" selection-end="2669" vertical-scroll-proportion="79.61539">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mcdo-monopoly.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/mcdo-monopoly.php">
+      <file leaf-file-name="costain.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/costain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.0">
+            <state line="57" column="62" selection-start="2742" selection-end="2742" vertical-scroll-proportion="-30.884615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-strategy.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/content-strategy.php">
+      <file leaf-file-name="ace.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/ace.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="78" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.0">
+            <state line="27" column="55" selection-start="1111" selection-end="1111" vertical-scroll-proportion="-17.653847">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="punchline.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/punchline.php">
+      <file leaf-file-name="init.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ML/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="115" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+            <state line="13" column="62" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +103,7 @@
       <file leaf-file-name="photomontages.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/photomontages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="549" selection-end="549" vertical-scroll-proportion="-7.8461537">
+            <state line="12" column="17" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,16 +112,16 @@
       <file leaf-file-name="sony-headphones.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/sony-headphones.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="51" selection-start="1197" selection-end="1277" vertical-scroll-proportion="0.0">
+            <state line="14" column="86" selection-start="558" selection-end="558" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sony-voice-recorders.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sony-voice-recorders.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/sony-voice-recorders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="105" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
+            <state line="11" column="66" selection-start="436" selection-end="436" vertical-scroll-proportion="0.22341697">
               <folding />
             </state>
           </provider>
@@ -112,7 +130,7 @@
       <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="33" selection-start="3230" selection-end="3230" vertical-scroll-proportion="0.0">
+            <state line="595" column="21" selection-start="12718" selection-end="12718" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,22 +150,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/projects/levis-banners.php" />
-        <option value="$PROJECT_DIR$/projects/levis-black.php" />
-        <option value="$PROJECT_DIR$/projects/levis-kids.php" />
         <option value="$PROJECT_DIR$/projects/playstation-pink.php" />
         <option value="$PROJECT_DIR$/projects/yummy.php" />
         <option value="$PROJECT_DIR$/js/ML/font.js" />
         <option value="$PROJECT_DIR$/projects/punchline.php" />
         <option value="$PROJECT_DIR$/projects/howbama.php" />
-        <option value="$PROJECT_DIR$/projects/sony-headphones.php" />
-        <option value="$PROJECT_DIR$/css/default.css" />
-        <option value="$PROJECT_DIR$/projects/sony-voice-recorders.php" />
         <option value="$PROJECT_DIR$/projects/mcdo-monopoly.php" />
         <option value="$PROJECT_DIR$/projects/content-strategy.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/projects/photomontages.php" />
+        <option value="$PROJECT_DIR$/js/ML/init.js" />
+        <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/_includes/header.php" />
+        <option value="$PROJECT_DIR$/projects/ace.php" />
+        <option value="$PROJECT_DIR$/projects/costain.php" />
+        <option value="$PROJECT_DIR$/projects/sony-headphones.php" />
+        <option value="$PROJECT_DIR$/projects/sony-voice-recorders.php" />
       </list>
     </option>
   </component>
@@ -197,6 +215,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2011_portfolio_marie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2011_portfolio_marie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2011_portfolio_marie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2011_portfolio_marie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2011_portfolio_marie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2011_portfolio_marie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -205,8 +269,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="folio_marie" serverId="d95d9e1a-7b3d-470e-9c43-62399773344b">
     <servers>
@@ -282,14 +346,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1046" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15141612" sideWeight="0.67713004" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15137132" sideWeight="0.67713004" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -336,21 +400,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/levis-black.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="26" selection-start="1901" selection-end="1901" vertical-scroll-proportion="-24.192308" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/levis-kids.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="26" selection-start="1767" selection-end="1767" vertical-scroll-proportion="-27.461538" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/playstation-pink.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="26" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-22.73077" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/strange-fruit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="12" selection-start="1125" selection-end="1133" vertical-scroll-proportion="-19.615385" />
@@ -368,70 +417,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/mcdo-monopoly.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="0" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/content-strategy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="78" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="39" column="78" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/punchline.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="115" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="115" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/howbama.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="20" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="53" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="53" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sony-headphones.php">
+    <entry file="file://$PROJECT_DIR$/projects/photomontages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="51" selection-start="1197" selection-end="1277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sony-voice-recorders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="105" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
+        <state line="12" column="17" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="33" selection-start="3230" selection-end="3230" vertical-scroll-proportion="0.0">
+        <state line="595" column="21" selection-start="12718" selection-end="12718" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/photomontages.php">
+    <entry file="file://$PROJECT_DIR$/js/ML/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="549" selection-end="549" vertical-scroll-proportion="-7.8461537">
+        <state line="13" column="62" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="57" selection-start="147" selection-end="147" vertical-scroll-proportion="0.086513996">
+        <state line="54" column="56" selection-start="2669" selection-end="2669" vertical-scroll-proportion="79.61539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/ace.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="55" selection-start="1111" selection-end="1111" vertical-scroll-proportion="-17.653847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/costain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="62" selection-start="2742" selection-end="2742" vertical-scroll-proportion="-30.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sony-headphones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="86" selection-start="558" selection-end="558" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sony-voice-recorders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="66" selection-start="436" selection-end="436" vertical-scroll-proportion="0.22341697">
           <folding />
         </state>
       </provider>

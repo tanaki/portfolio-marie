@@ -9,7 +9,7 @@
             <ul class="content-project">
                 <li>
                     <img src="/img/projects/content/sony-voice-recorders/sony-voice-recorders_01.jpg" />
-                    <span class="caption">Coming Soon</span>
+                    <span class="caption">Sony voice recorders hub</span>
                 </li>
             </ul>
             <div class="arrows"></div>

@@ -587,3 +587,14 @@
     .mac #header-left #resume {
         padding-top:2px;
     }
+/**
+    Chrome // Safari
+**/
+    .performance {
+        font-weight:normal;
+        display:block;
+        margin-top:15px;
+    }
+    .webkit .performance {
+        display:none;
+    }

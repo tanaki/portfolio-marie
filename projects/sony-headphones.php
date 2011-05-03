@@ -9,7 +9,11 @@
             <ul class="content-project">
                 <li>
                     <img src="/img/projects/content/sony-headphones/sony-headphones_01.jpg" />
-                    <span class="caption">Coming Soon</span>
+                    <span class="caption">Sony Headphones hub</span>
+                </li>
+                <li>
+                    <img src="/img/projects/content/sony-headphones/sony-headphones_02.jpg" />
+                    <span class="caption">Sony Headphones hub</span>
                 </li>
             </ul>
             <div class="arrows"></div>

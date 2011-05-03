@@ -210,6 +210,7 @@
                                 <span class="menu-content">
                                     Art direction: <a href="mailto:mawielauwent@gmail.com">Marie Laurent</a><br/>
                                     Developement: <a target="_blank" href="http://www.nicolaspigelet.com/">Nicolas Pigelet</a>
+                                    <strong class="performance">For a better experience, please use <a href="http://www.google.com/chrome">Chrome</a> or <a href="http://www.apple.com/safari/">Safari</a>.</strong>
                                 </span>
                             </li>
                         </ul>
