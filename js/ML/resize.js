@@ -38,8 +38,8 @@
         },
 
         footerBackground : function() {
-            if ( !$("#footer-project ul").position() ) return;
-            var left = ($.browser.safari || $.browser.msie) ? parseInt($("#footer-project ul").css("margin-left")) : parseInt($("#footer-project ul").position().left);
+			if ( !$("#footer-project ul").position() ) return;
+            var left = $.browser.msie ? parseInt($("#footer-project ul").css("margin-left")) : parseInt($("#footer-project ul").position().left);
             $("#footer-project").css("background-position", (left + 60) + "px top");
         },
 

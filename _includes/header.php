@@ -21,8 +21,10 @@
             // preload images
             var aImages = [
                 "/img/site/misc/icon_logo_24.png",
-                "/img/site/misc/bg_global_24.png",
+                "/img/site/misc/bg_global_24.png"
+            ];
 
+			var aImagesProject = [
                 "/img/projects/thumbs/strange-fruit_24.png",
                 "/img/projects/thumbs/punchline_24.png",
                 "/img/projects/thumbs/yummy_24.png",
@@ -37,10 +39,8 @@
                 "/img/projects/thumbs/levis-kids_24.png",
                 "/img/projects/thumbs/playstation-pink_24.png",
                 "/img/projects/thumbs/drawings_24.png",
-                "/img/projects/thumbs/photomontages_24.png"
-            ];
-
-			var aImagesProject = [
+                "/img/projects/thumbs/photomontages_24.png",
+				
                 "/img/projects/mini/strange-fruit_24.png",
                 "/img/projects/mini/punchline_24.png",
                 "/img/projects/mini/yummy_24.png",
