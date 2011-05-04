@@ -10,7 +10,7 @@
             
             $.imgpreload(aImages, {
                 each: function() {
-                    $(window).trigger("LOAD_ITEM", {
+					$(window).trigger("LOAD_ITEM", {
                         index : i,
                         width : width,
                         len : len

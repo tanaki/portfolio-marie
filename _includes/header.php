@@ -2,8 +2,8 @@
 <html lang="en" class="noJS">
     <head>
         <meta charset="utf-8" />
-        <link rel="icon" type="image/gif" href="favicon_2.gif" />
-        <link rel="shortcut icon" type="image/gif" href="favicon_2.gif" />
+        <link rel="icon" type="image/gif" href="favicon.gif" />
+        <link rel="shortcut icon" type="image/gif" href="favicon.gif" />
 
         <title>Marie Laurent - Interactive and Graphic Designer</title>
 
@@ -20,10 +20,7 @@
         <script type="text/javascript">
             // preload images
             var aImages = [
-                "/img/site/misc/icon_logo_24.png"
-            ];
-
-			var aImagesProject = [
+                "/img/site/misc/icon_logo_24.png",
                 "/img/site/misc/bg_global_24.png",
 
                 "/img/projects/thumbs/strange-fruit_24.png",
@@ -40,8 +37,10 @@
                 "/img/projects/thumbs/levis-kids_24.png",
                 "/img/projects/thumbs/playstation-pink_24.png",
                 "/img/projects/thumbs/drawings_24.png",
-                "/img/projects/thumbs/photomontages_24.png",
-				
+                "/img/projects/thumbs/photomontages_24.png"
+            ];
+
+			var aImagesProject = [
                 "/img/projects/mini/strange-fruit_24.png",
                 "/img/projects/mini/punchline_24.png",
                 "/img/projects/mini/yummy_24.png",

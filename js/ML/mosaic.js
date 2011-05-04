@@ -9,6 +9,10 @@
 
         display : function(){
 
+			$(".mosaic img").each(function(i, el){
+				$(el).attr( "src", $(el).data("src") );
+			});
+			
             $(window).MLResize("resize");
 
             var max = $(".line-container:first li").length - 1;

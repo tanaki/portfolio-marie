@@ -82,7 +82,7 @@
                             <li class="project">
                                 <a <?php if($i == 0) echo 'class="first"'; ?> href="/projects/<?php echo $project["slug"]; ?>">
                                     <span class="content-project">
-                                        <img src="/img/projects/thumbs/<?php echo $project["slug"]; ?>_24.png" alt="<?php echo $project["title"]; ?> - <?php echo $project["client"]; ?>" />
+                                        <img data-src="/img/projects/thumbs/<?php echo $project["slug"]; ?>_24.png" alt="<?php echo $project["title"]; ?> - <?php echo $project["client"]; ?>" />
                                         <span class="keywords">
                                             <span><?php echo $project["title"]; ?></span>
                                             <?php
@@ -172,7 +172,7 @@
                             <li class="project">
                                 <a <?php if($i == 0) echo 'class="first"'; ?> href="/projects/<?php echo $project["slug"]; ?>">
                                     <span class="content-project">
-                                        <img src="/img/projects/thumbs/<?php echo $project["slug"]; ?>_24.png" alt="<?php echo $project["title"]; ?> - <?php echo $project["client"]; ?>" />
+                                        <img data-src="/img/projects/thumbs/<?php echo $project["slug"]; ?>_24.png" alt="<?php echo $project["title"]; ?> - <?php echo $project["client"]; ?>" />
                                         <span class="keywords">
                                             <span><?php echo $project["title"]; ?></span>
                                             <?php
