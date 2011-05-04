@@ -57,6 +57,8 @@
         }
         #header-left #logo {
             display:block;
+			width: 192px;
+			height: 135px;
         }
         #header-left ul.sublogo {
             margin-left: 16px;
@@ -224,6 +226,7 @@
             overflow:hidden;
             margin-right:5px;
             background:#000;
+			color:#000;
             position:relative;
             text-decoration:none;
 
@@ -242,6 +245,7 @@
             display:block;
             margin-left: -115px;
             margin-top: -1px;
+			color:#000;
 
             -moz-transform:skew(45deg);
             -webkit-transform:skew(45deg);
@@ -268,6 +272,7 @@
             display:block;
             margin-left: -116px;
             margin-top: -1px;
+			color:#000;
             
             -moz-transform:skew(-45deg);
             -webkit-transform:skew(-45deg);
@@ -504,6 +509,7 @@
         overflow:hidden;
         width:59px;
         background:#000;
+		color:#000;
         text-decoration:none;
 
         -moz-transform:skew(-45deg);
@@ -513,6 +519,7 @@
     }
     #footer-project ul li a.project-mini span.content-project {
         display:block;
+		color:#000;
 
         -moz-transform:skew(45deg);
         -webkit-transform:skew(45deg);
@@ -523,6 +530,9 @@
         display:block;
         margin-left:-29px;
         opacity:0.6;
+		
+		width:117px;
+		height:57px;
     }
 
     #footer-project ul li a.project-caption {

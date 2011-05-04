@@ -19,12 +19,13 @@
 
         <script type="text/javascript">
             // preload images
-            var aImages = [
-                "/img/site/misc/icon_logo_24.png",
-                "/img/site/misc/bg_global_24.png"
-            ];
+            var aImages = [];
 
 			var aImagesProject = [
+                "/img/site/misc/icon_logo_24.png",
+                "/img/site/misc/bg_global_24.png",
+                "/img/site/misc/sprite_icon-contact_24.png",
+				
                 "/img/projects/thumbs/strange-fruit_24.png",
                 "/img/projects/thumbs/punchline_24.png",
                 "/img/projects/thumbs/yummy_24.png",
@@ -34,6 +35,7 @@
                 "/img/projects/thumbs/sony-headphones_24.png",
                 "/img/projects/thumbs/sony-voice-recorders_24.png",
                 "/img/projects/thumbs/mcdo-monopoly_24.png",
+                "/img/projects/thumbs/content-strategy_24.png",
                 "/img/projects/thumbs/levis-banners_24.png",
                 "/img/projects/thumbs/levis-black_24.png",
                 "/img/projects/thumbs/levis-kids_24.png",
@@ -50,6 +52,7 @@
                 "/img/projects/mini/sony-headphones_24.png",
                 "/img/projects/mini/sony-voice-recorders_24.png",
                 "/img/projects/mini/mcdo-monopoly_24.png",
+                "/img/projects/mini/content-strategy_24.png",
                 "/img/projects/mini/levis-banners_24.png",
                 "/img/projects/mini/levis-black_24.png",
                 "/img/projects/mini/levis-kids_24.png",
@@ -58,6 +61,10 @@
                 "/img/projects/mini/photomontages_24.png",
 			
 				"/img/projects/content/ace/ace_01.jpg",
+				"/img/projects/content/ace/ace_02.jpg",
+				"/img/projects/content/ace/ace_03.jpg",
+				"/img/projects/content/ace/ace_04.jpg",
+				"/img/projects/content/ace/ace_05.jpg",
 				
 				"/img/projects/content/content-strategy/content-strategy_01.jpg",
 				"/img/projects/content/content-strategy/content-strategy_02.jpg",
@@ -111,6 +118,7 @@
 				"/img/projects/content/punchline/punchline_01.jpg",
 				
 				"/img/projects/content/sony-headphones/sony-headphones_01.jpg",
+				"/img/projects/content/sony-headphones/sony-headphones_02.jpg",
 				
 				"/img/projects/content/sony-voice-recorders/sony-voice-recorders_01.jpg",
 				
