@@ -585,8 +585,17 @@
 
     .mac #header-right li a.menu-link,
     .mac #header-left #resume {
-        padding-top:2px;
+        padding-top:1px;
     }
+		.mac .mosaic #content-top li a,
+	    .mac .mosaic #content-bottom li a {
+			background-color:transparent;
+		}
+			.mac .mosaic #content-top li a:hover,
+		    .mac .mosaic #content-bottom li a:hover {
+				background-color:black;
+			}
+
 /**
     Chrome // Safari
 **/
