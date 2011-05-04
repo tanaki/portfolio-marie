@@ -394,7 +394,8 @@
         background:#fff;
         text-align:center;
     }
-    ul.content-project li .swf-container iframe {
+	ul.content-project li .swf-container object,
+	ul.content-project li .swf-container iframe {
         position:relative;
         z-index:99;
     }
