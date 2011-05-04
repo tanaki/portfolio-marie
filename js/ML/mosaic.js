@@ -33,16 +33,16 @@
     //                        "opacity" : "0.5"
     //                    }, 100, function(){
 
-                    if ( !$.browser.mozilla ) {
+                    // if ( !$.browser.mozilla ) {
                         $('.keywords span', self).each(function(i, el){
                             $(el)
                                 .stop()
                                 .delay(i*100)
                                 .animate({"margin-left": "1"});
                         });
-                    } else {
-                        $('.keywords span', self).css("margin-left", 1);
-                    }
+                    // } else {
+                        // $('.keywords span', self).css("margin-left", 1);
+                    // }
 
                 },
                 function(){
@@ -51,16 +51,16 @@
     //                    .animate({
     //                        "opacity" : "1"
     //                    });
-                    if ( !$.browser.mozilla ) {
+                    // if ( !$.browser.mozilla ) {
                         $('.keywords span', this).each(function(i,el){
                             $(el)
                                 .stop(true)
                                 .delay(i*100)
                                 .animate({"margin-left": "210"});
                         });
-                    } else {
-                        $('.keywords span', this).css("margin-left", 210);
-                    }
+                    // } else {
+                        // $('.keywords span', this).css("margin-left", 210);
+                    // }
                 });
 
         },

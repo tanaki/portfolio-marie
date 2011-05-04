@@ -595,6 +595,10 @@
 		    .mac .mosaic #content-bottom li a:hover {
 				background-color:black;
 			}
+	
+	        .mac.ff .keywords span {
+	            padding: 2px 3px 0;
+	        }
 
 /**
     Chrome // Safari
