@@ -40,9 +40,13 @@ $(window).bind({
 
 function loadedItem(e, o){
     $("#loader")
+		.html("<div>" + Math.round(o.index * 100 / o.len) + "%</div>")
         .animate({
             "width" : (o.index * 100 / o.len) + "%"
         }, 20);
+	Cufon.replace("#loader div", {
+		fontFamily: 'Helvetica Neue'
+	});
 }
 
 function loadComplete(){

@@ -162,7 +162,7 @@
 
     <body>
         <div id="loader">
-			<div>Loading content</div>
+			<div>0%</div>
 		</div>
 		<script type="text/javascript">
 			Cufon.replace("#loader div", {
