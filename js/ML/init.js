@@ -14,8 +14,8 @@ $(window).ready(function(){
     if (navigator.appVersion.indexOf("Mac")!=-1) $("html").addClass("mac");
 
     // preload Images
-    // $(window).MLPreloadImages();
-	$(window).trigger("LOAD_COMPLETE");
+    $(window).MLPreloadImages();
+	//$(window).trigger("LOAD_COMPLETE");
 	
     $(window).MLFont();
     $("#logo").MLLogo();

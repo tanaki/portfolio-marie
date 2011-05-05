@@ -19,9 +19,7 @@
 
         <script type="text/javascript">
             // preload images
-            var aImages = [];
-
-			var aImagesProject = [
+            var aImages = [
                 "/img/site/misc/icon_logo_24.png",
                 "/img/site/misc/bg_global_24.png",
                 "/img/site/misc/sprite_icon-contact_24.png",
@@ -133,9 +131,6 @@
 				"/img/projects/content/yummy/yummy_09.jpg",
 				"/img/projects/content/yummy/yummy_10.jpg"
 			];
-            $.imgpreload(aImagesProject, {
-                all : function(){}
-            });
         </script>
 		<!--script src="/js/ML/plugins.min.js" type="text/javascript"></script-->
 		<script src="/js/ML/font.js" type="text/javascript"></script>
@@ -166,7 +161,14 @@
     </head>
 
     <body>
-        <div id="loader"></div>
+        <div id="loader">
+			<div>Loading content</div>
+		</div>
+		<script type="text/javascript">
+			Cufon.replace("#loader div", {
+				fontFamily: 'Helvetica Neue'
+			});
+		</script>
         <div id="wrapper">
             <div id="header">
                 <div id="header-container">

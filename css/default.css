@@ -28,11 +28,18 @@
 **/
     #loader {
         width:1%;
-        height:10px;
-        background:#f70064;
+        border-top:5px #f70064 solid;
         position:absolute;
-        bottom:0;
+        bottom:50%;
         left:0;
+		
+		height:30px;
+    }
+	
+    #loader div {
+        text-align:right;
+		margin-top:5px;
+		color: #f70064;
     }
 
 /**
