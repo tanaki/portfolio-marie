@@ -26,15 +26,15 @@
 					imagesArray.push(item);
 				});
 				
-				$(mini).each(function(i, item){
-					imagesArray.push(item);
-				});
-				
 			} else {
 				$(thumbs).each(function(i, item){
 					imagesArray.push(item);
 				});
 			}
+			
+			$(mini).each(function(i, item){
+				imagesArray.push(item);
+			});
 			
 			var len = imagesArray.length;
 			$(window).trigger("LOAD_STARTED");
