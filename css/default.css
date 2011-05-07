@@ -628,6 +628,10 @@
 	.mac.ff .keywords span {
 		padding: 2px 3px 0;
 	}
+	
+	.mac.ff .bottom-project .bottom-project-inner .bottom-project-desc {
+		padding-top:6px;
+	}
 
 /**
     Chrome // Safari
