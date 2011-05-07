@@ -11,37 +11,29 @@
             });
         },
 
-        open : function (href){
+        open : function (href, loadContent){
             $.post(
                 href,
                 {
                     "noLayout" : "true"
                 },
                 function(htmlLoaded){
-                    $("#content")
-                        .removeClass("mosaic")
-                        .addClass("project-detail")
-                        .html(htmlLoaded);
+						
+					$("#content")
+						.removeClass("mosaic")
+						.addClass("project-detail")
+						.html(htmlLoaded);
 
-                    $(window).MLFont("initProject");
-                    $("#menu")
-                        .MLMenu("reset");
-
-                    $("#menu a.current").removeClass("current");
-                    $("#menu #work a").addClass("current");
-
-                    $("#menu")
-                        .MLMenu("open", 0);
-
-                    $("#menu #work .menu-link")
-                        .html($(".bottom-project-title").html());
-
-                    $("#menu #work .menu-content")
-                        .html($(".work-content").html());
-
-                    $(window).MLFont("work");
-
-                    methods._initProject();
+					$(window).MLFont("initProject");
+					$(window).MLResize("resize");
+					
+					$("#footer-project").MLFooterProject();
+					
+					if ( loadContent ) {
+						methods._initProject();
+					} else {
+						$(window).MLPreloadImages();
+					}
                 }
             );
         },
@@ -74,12 +66,8 @@
         },
 
         _initProject : function(){
-            $("#content").fadeIn(100, function(){
-
-                $(window).MLResize("resize");
-                $("#footer-project").MLFooterProject();
-
-                var lis = $("ul.content-project li").length;
+			$("#content").fadeIn(100, function(){
+				var lis = $("ul.content-project li").length;
                 var startValue = 1;//Math.ceil( lis / 2);
                 $("ul.content-project")
                     .jcarousel({
@@ -100,7 +88,25 @@
                     })
                     .animate({
                         "opacity" : 1
-                    })
+                    }, function(){
+					
+						$(window).MLResize("resize");
+
+						$("#menu").MLMenu("reset");
+						$("#menu a.current").removeClass("current");
+						$("#menu #work a").addClass("current");
+						
+						$("#menu #work .menu-link")
+							.html($(".bottom-project-title").html());
+
+						$("#menu #work .menu-content")
+							.html($(".work-content").html());
+
+						$(window).MLFont("work");
+						$("#menu").MLMenu("open", 0);
+						
+						$(window).trigger("INIT_SWF");
+					})
                     .MLImprovedCarousel({
                         carousel : $("ul.content-project").data("jcarousel"),
                         startValue : startValue-1

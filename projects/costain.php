@@ -42,22 +42,23 @@
                 <li>
                     <span class="swf-container">
                         <span id="costain-09-swf"></span>
-                        <script type="text/javascript">
-                            swfobject.embedSWF("/img/projects/content/costain/costain_09.swf", "costain-09-swf", "667", "435", "9.0.0", "/data/swf/expressInstall.swf");
-                        </script>
                     </span>
                     <span class="caption">Prototype in AS3</span>
                 </li>
                 <li>
                     <span class="swf-container" style="padding-top:140px;">
                         <span id="costain-10-swf"></span>
-                        <script type="text/javascript">
-                            swfobject.embedSWF("/img/projects/content/costain/costain_10.swf", "costain-10-swf", "160", "160", "9.0.0", "/data/swf/expressInstall.swf");
-                        </script>
                     </span>
                     <span class="caption">Loader in AS3</span>
                 </li>
             </ul>
+			<script type="text/javascript">
+				$(window).bind("INIT_SWF", function(){
+					swfobject.embedSWF("/img/projects/content/costain/costain_09.swf", "costain-09-swf", "667", "435", "9.0.0", "/data/swf/expressInstall.swf");
+					swfobject.embedSWF("/img/projects/content/costain/costain_10.swf", "costain-10-swf", "160", "160", "9.0.0", "/data/swf/expressInstall.swf");
+					$(window).unbind("INIT_SWF");
+				});
+			</script>
             <div class="arrows"></div>
             <a href="#" class="carousel-prev">PREV</a>
             <a href="#" class="carousel-next">NEXT</a>

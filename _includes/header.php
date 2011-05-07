@@ -18,12 +18,15 @@
         <script src="/js/font/Helvetica_Neue_500-Helvetica_Neue_700.font.js" type="text/javascript"></script>
 
         <script type="text/javascript">
-            // preload images
-            var aImages = [
+            
+			var siteImages = [
                 "/img/site/misc/icon_logo_24.png",
                 "/img/site/misc/bg_global_24.png",
                 "/img/site/misc/sprite_icon-contact_24.png",
+                "/img/site/misc/bg_footer_8.png"
+			];
 				
+			var thumbs = [
                 "/img/projects/thumbs/strange-fruit_24.png",
                 "/img/projects/thumbs/punchline_24.png",
                 "/img/projects/thumbs/yummy_24.png",
@@ -39,8 +42,10 @@
                 "/img/projects/thumbs/levis-kids_24.png",
                 "/img/projects/thumbs/playstation-pink_24.png",
                 "/img/projects/thumbs/drawings_24.png",
-                "/img/projects/thumbs/photomontages_24.png",
-				
+                "/img/projects/thumbs/photomontages_24.png"
+			];
+			
+			var mini = [
                 "/img/projects/mini/strange-fruit_24.png",
                 "/img/projects/mini/punchline_24.png",
                 "/img/projects/mini/yummy_24.png",
@@ -56,81 +61,116 @@
                 "/img/projects/mini/levis-kids_24.png",
                 "/img/projects/mini/playstation-pink_24.png",
                 "/img/projects/mini/drawings_24.png",
-                "/img/projects/mini/photomontages_24.png",
-			
-				"/img/projects/content/ace/ace_01.jpg",
-				"/img/projects/content/ace/ace_02.jpg",
-				"/img/projects/content/ace/ace_03.jpg",
-				"/img/projects/content/ace/ace_04.jpg",
-				"/img/projects/content/ace/ace_05.jpg",
-				
-				"/img/projects/content/content-strategy/content-strategy_01.jpg",
-				"/img/projects/content/content-strategy/content-strategy_02.jpg",
-				"/img/projects/content/content-strategy/content-strategy_03.jpg",
-				
-				"/img/projects/content/costain/costain_01.jpg",
-				"/img/projects/content/costain/costain_02.jpg",
-				"/img/projects/content/costain/costain_03.jpg",
-				"/img/projects/content/costain/costain_04.jpg",
-				
-				"/img/projects/content/drawings/drawings_01.jpg",
-				"/img/projects/content/drawings/drawings_02.jpg",
-				"/img/projects/content/drawings/drawings_03.jpg",
-				"/img/projects/content/drawings/drawings_04.jpg",
-				"/img/projects/content/drawings/drawings_05.jpg",
-				
-				"/img/projects/content/howbama/howbama_01.jpg",
-				"/img/projects/content/howbama/howbama_02.jpg",
-				"/img/projects/content/howbama/howbama_03.jpg",
-				"/img/projects/content/howbama/howbama_04.jpg",
-				"/img/projects/content/howbama/howbama_05.jpg",
-				"/img/projects/content/howbama/howbama_06.jpg",
-				"/img/projects/content/howbama/howbama_07.jpg",
-				
-				"/img/projects/content/levis-banners/levis-banners_01.jpg",
-				"/img/projects/content/levis-banners/levis-banners_02.jpg",
-				"/img/projects/content/levis-banners/levis-banners_03.jpg",
-				
-				"/img/projects/content/levis-black/levis-black_01.jpg",
-				"/img/projects/content/levis-black/levis-black_03.jpg",
-				
-				"/img/projects/content/levis-kids/levis-kids_01.jpg",
-				"/img/projects/content/levis-kids/levis-kids_02.jpg",
-				"/img/projects/content/levis-kids/levis-kids_03.jpg",
-				"/img/projects/content/levis-kids/levis-kids_04.jpg",
-				
-				"/img/projects/content/mcdo-monopoly/mcdo-monopoly_01.jpg",
-				"/img/projects/content/mcdo-monopoly/mcdo-monopoly_02.jpg",
-				"/img/projects/content/mcdo-monopoly/mcdo-monopoly_03.jpg",
-				"/img/projects/content/mcdo-monopoly/mcdo-monopoly_04.jpg",
-				"/img/projects/content/mcdo-monopoly/mcdo-monopoly_05.jpg",
-				
-				"/img/projects/content/photomontages/photomontages_01.jpg",
-				"/img/projects/content/photomontages/photomontages_02.jpg",
-				"/img/projects/content/photomontages/photomontages_03.jpg",
-				
-				"/img/projects/content/playstation-pink/playstation-pink_01.jpg",
-				"/img/projects/content/playstation-pink/playstation-pink_02.jpg",
-				"/img/projects/content/playstation-pink/playstation-pink_03.jpg",
-				
-				"/img/projects/content/punchline/punchline_01.jpg",
-				
-				"/img/projects/content/sony-headphones/sony-headphones_01.jpg",
-				"/img/projects/content/sony-headphones/sony-headphones_02.jpg",
-				
-				"/img/projects/content/sony-voice-recorders/sony-voice-recorders_01.jpg",
-				
-				"/img/projects/content/strange-fruit/strange-fruit_01.jpg",
-				
-				"/img/projects/content/yummy/yummy_03.jpg",
-				"/img/projects/content/yummy/yummy_04.jpg",
-				"/img/projects/content/yummy/yummy_05.jpg",
-				"/img/projects/content/yummy/yummy_06.jpg",
-				"/img/projects/content/yummy/yummy_07.jpg",
-				"/img/projects/content/yummy/yummy_08.jpg",
-				"/img/projects/content/yummy/yummy_09.jpg",
-				"/img/projects/content/yummy/yummy_10.jpg"
+                "/img/projects/mini/photomontages_24.png"
 			];
+			
+			var projectImages = {
+				
+				"ace" : [
+					"/img/projects/content/ace/ace_01.jpg",
+					"/img/projects/content/ace/ace_02.jpg",
+					"/img/projects/content/ace/ace_03.jpg",
+					"/img/projects/content/ace/ace_04.jpg",
+					"/img/projects/content/ace/ace_05.jpg"
+				],
+				
+				"content-strategy" : [
+					"/img/projects/content/content-strategy/content-strategy_01.jpg",
+					"/img/projects/content/content-strategy/content-strategy_02.jpg",
+					"/img/projects/content/content-strategy/content-strategy_03.jpg"
+				],
+					
+				"costain" : [
+					"/img/projects/content/costain/costain_01.jpg",
+					"/img/projects/content/costain/costain_02.jpg",
+					"/img/projects/content/costain/costain_03.jpg",
+					"/img/projects/content/costain/costain_04.jpg"
+				],
+					
+				"drawings" : [
+					"/img/projects/content/drawings/drawings_01.jpg",
+					"/img/projects/content/drawings/drawings_02.jpg",
+					"/img/projects/content/drawings/drawings_03.jpg",
+					"/img/projects/content/drawings/drawings_04.jpg",
+					"/img/projects/content/drawings/drawings_05.jpg"
+				],
+					
+				"howbama" : [
+					"/img/projects/content/howbama/howbama_01.jpg",
+					"/img/projects/content/howbama/howbama_02.jpg",
+					"/img/projects/content/howbama/howbama_03.jpg",
+					"/img/projects/content/howbama/howbama_04.jpg",
+					"/img/projects/content/howbama/howbama_05.jpg",
+					"/img/projects/content/howbama/howbama_06.jpg",
+					"/img/projects/content/howbama/howbama_07.jpg"
+				],
+					
+				"levis-banners" : [
+					"/img/projects/content/levis-banners/levis-banners_01.jpg",
+					"/img/projects/content/levis-banners/levis-banners_02.jpg",
+					"/img/projects/content/levis-banners/levis-banners_03.jpg"
+				],
+					
+				"levis-black" : [
+					"/img/projects/content/levis-black/levis-black_01.jpg",
+					"/img/projects/content/levis-black/levis-black_03.jpg"
+				],
+					
+				"levis-kids" : [
+					"/img/projects/content/levis-kids/levis-kids_01.jpg",
+					"/img/projects/content/levis-kids/levis-kids_02.jpg",
+					"/img/projects/content/levis-kids/levis-kids_03.jpg",
+					"/img/projects/content/levis-kids/levis-kids_04.jpg"
+				],
+					
+				"mcdo-monopoly" : [
+					"/img/projects/content/mcdo-monopoly/mcdo-monopoly_01.jpg",
+					"/img/projects/content/mcdo-monopoly/mcdo-monopoly_02.jpg",
+					"/img/projects/content/mcdo-monopoly/mcdo-monopoly_03.jpg",
+					"/img/projects/content/mcdo-monopoly/mcdo-monopoly_04.jpg",
+					"/img/projects/content/mcdo-monopoly/mcdo-monopoly_05.jpg"
+				],
+					
+				"photomontages" : [
+					"/img/projects/content/photomontages/photomontages_01.jpg",
+					"/img/projects/content/photomontages/photomontages_02.jpg",
+					"/img/projects/content/photomontages/photomontages_03.jpg"
+				],
+					
+				"playstation-pink" : [
+					"/img/projects/content/playstation-pink/playstation-pink_01.jpg",
+					"/img/projects/content/playstation-pink/playstation-pink_02.jpg",
+					"/img/projects/content/playstation-pink/playstation-pink_03.jpg"
+				],
+					
+				"punchline" : [
+					"/img/projects/content/punchline/punchline_01.jpg"
+				],
+					
+				"sony-headphones" : [
+					"/img/projects/content/sony-headphones/sony-headphones_01.jpg",
+					"/img/projects/content/sony-headphones/sony-headphones_02.jpg"
+				],
+					
+				"sony-voice-recorders" : [
+					"/img/projects/content/sony-voice-recorders/sony-voice-recorders_01.jpg"
+				],
+					
+				"strange-fruit" : [
+					"/img/projects/content/strange-fruit/strange-fruit_01.jpg"
+				],
+					
+				"yummy" : [
+					"/img/projects/content/yummy/yummy_03.jpg",
+					"/img/projects/content/yummy/yummy_04.jpg",
+					"/img/projects/content/yummy/yummy_05.jpg",
+					"/img/projects/content/yummy/yummy_06.jpg",
+					"/img/projects/content/yummy/yummy_07.jpg",
+					"/img/projects/content/yummy/yummy_08.jpg",
+					"/img/projects/content/yummy/yummy_09.jpg",
+					"/img/projects/content/yummy/yummy_10.jpg"
+				]
+			};
         </script>
 		<!--script src="/js/ML/plugins.min.js" type="text/javascript"></script-->
 		<script src="/js/ML/font.js" type="text/javascript"></script>

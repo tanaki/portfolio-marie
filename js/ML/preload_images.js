@@ -1,14 +1,44 @@
 (function( $ ){
-
+	
+	var alreadyLoaded = [];
+	
     var methods = {
         init : function( options ) {
 
             var self = this,
-                len = aImages.length,
                 width = $(window).width(),
                 i = 1;
             
-            $.imgpreload(aImages, {
+			var imagesArray = alreadyLoaded.length > 0 ? [] : siteImages;
+			
+			if( $.address.value() != "/" ) {
+				var pathNames = $.address.pathNames();
+				var name = pathNames[pathNames.length-1];
+				
+				if(in_array(name, alreadyLoaded)) {
+                    $(window).trigger("LOAD_COMPLETE", {
+						direct : true
+					});
+					return;
+				}
+				alreadyLoaded.push(name);
+				$( projectImages[name] ).each(function(i, item){
+					imagesArray.push(item);
+				});
+				
+				$(mini).each(function(i, item){
+					imagesArray.push(item);
+				});
+				
+			} else {
+				$(thumbs).each(function(i, item){
+					imagesArray.push(item);
+				});
+			}
+			
+			var len = imagesArray.length;
+			$(window).trigger("LOAD_STARTED");
+            $.imgpreload(imagesArray, {
                 each: function() {
 					$(window).trigger("LOAD_ITEM", {
                         index : i,
@@ -18,7 +48,9 @@
                     i++;
                 },
                 all:function() {
-                    $(window).trigger("LOAD_COMPLETE");
+                    $(window).trigger("LOAD_COMPLETE", {
+						direct : false
+					});
                 }
             });
 

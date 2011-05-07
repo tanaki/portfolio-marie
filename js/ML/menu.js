@@ -70,6 +70,7 @@
                 }, function(){
                     currentIndex = null;
                     isAnimating = false;
+					$(window).trigger("NAV_RESET");
                 });
             });
         },

@@ -52,6 +52,7 @@
         width:1132px;
     }
     #header-container {
+		
     }
 
     /**
@@ -495,6 +496,8 @@
 
     #footer-project {
         background:url(/img/site/misc/bg_footer_8.png) repeat-x center top;
+        position:relative;
+        z-index:100;
     }
     #footer-project ul {
         overflow:hidden;
@@ -605,7 +608,9 @@
         padding-top:1px;
     }
 	.mac .mosaic #content-top li a,
-	.mac .mosaic #content-bottom li a {
+	.mac .mosaic #content-bottom li a,
+	.ff .mosaic #content-top li a,
+	.ff .mosaic #content-bottom li a {
 		background-color:transparent;
 	}
 	.mac.ff .mosaic #content-top li a,
@@ -615,7 +620,9 @@
 		color:#E0E0E0;
 	}
 	.mac .mosaic #content-top li a:hover,
-	.mac .mosaic #content-bottom li a:hover {
+	.mac .mosaic #content-bottom li a:hover,
+	.ff .mosaic #content-top li a:hover,
+	.ff .mosaic #content-bottom li a:hover {
 		background-color:black;
 	}
 	.mac.ff .keywords span {

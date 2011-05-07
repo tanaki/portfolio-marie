@@ -12,6 +12,7 @@
             if ( marginTop > 0 ) $("#header").css("margin-top", marginTop);
             else $("#header").css("margin-top", 0);
 
+			methods.loader(marginTop);
             methods.background();
             methods.footerBackground();
 
@@ -19,6 +20,14 @@
                 methods.home();
             }
         },
+		
+		loader : function(marginTop){
+			marginTop = marginTop < 0 ? 0 : marginTop;
+			$("#loader").css({
+				"top" : "0",
+				"margin-top" : marginTop + 384
+			});
+		},
 
         background : function(){
 
@@ -39,8 +48,8 @@
 
         footerBackground : function() {
 			if ( !$("#footer-project ul").position() ) return;
-            var left = ($.browser.msie || $("html").hasClass("mac")) ? parseInt($("#footer-project ul").css("margin-left")) : parseInt($("#footer-project ul").position().left);
-            $("#footer-project").css("background-position", (left + 60) + "px top");
+            var left = ($.browser.msie || ($("html").hasClass("mac") && !$("html").hasClass("ff"))) ? parseInt($("#footer-project ul").css("margin-left")) : parseInt($("#footer-project ul").position().left);
+			$("#footer-project").css("background-position", (left + 60) + "px top");
         },
 
         home : function(){
