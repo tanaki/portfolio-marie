@@ -22,8 +22,10 @@
 			var siteImages = [
                 "/img/site/misc/icon_logo_24.png",
                 "/img/site/misc/bg_global_24.png",
+                "/img/site/misc/bg_footer_8.png",
+                "/img/site/misc/bg_left-project-caption_24.png",
                 "/img/site/misc/sprite_icon-contact_24.png",
-                "/img/site/misc/bg_footer_8.png"
+                "/img/site/misc/sprite_arrows_24.png"
 			];
 				
 			var thumbs = [

@@ -604,9 +604,12 @@
         font-weight:normal;
     }
     .mac #header-right li a.menu-link,
-    .mac #header-left #resume {
+    .mac #header-left #resume{
         padding-top:1px;
     }
+	.mac.ff #footer-project ul li a.project-caption span .cufon {
+		margin-top: 0 !important;
+	}
 	.mac .mosaic #content-top li a,
 	.mac .mosaic #content-bottom li a,
 	.ff .mosaic #content-top li a,
