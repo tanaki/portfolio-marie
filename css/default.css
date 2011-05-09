@@ -630,8 +630,12 @@
 	}
 	
 	.mac.ff .bottom-project .bottom-project-inner .bottom-project-desc {
-		padding-top:6px;
+		padding-top: 5px;
 	}
+    .mac.ff .bottom-project .bottom-project-inner .bottom-project-title,
+    .mac.ff .bottom-project .bottom-project-inner .carousel-pagin {
+        margin-top:5px;
+    }
 
 /**
     Chrome // Safari
