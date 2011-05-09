@@ -11,9 +11,9 @@
                 if( $.address.value() != "/" ) {
                     $.address.value("/");
                     $("#content").fadeOut(300, function(){
-                        $(".project-detail").MLOpenProject("openMosaic");
-                        
-                    })
+						$(window).MLPreloadImages();
+//                        $(".project-detail").MLOpenProject("openMosaic");
+                    });
                 }
 
                 return false;

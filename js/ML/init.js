@@ -71,8 +71,12 @@ function loadComplete(e, o){
 }
 
 function initContent(){
-	if ( $("#header-left").css("display") == "block" ) {	
-		$(".mosaic ul a").MLOpenProject("open", $.address.value(), true);
+	if ( $("#header-left").css("display") == "block" ) {
+		if ($.address.value() == "/") {
+	        $(".project-detail").MLOpenProject("openMosaic");
+		} else {
+			$(".mosaic ul a").MLOpenProject("open", $.address.value(), true);			
+		}
 	} else {
 		$("#menu").MLMenu("display");
 	}
