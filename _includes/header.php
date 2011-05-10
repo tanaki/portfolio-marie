@@ -241,7 +241,7 @@
                                 <a class="menu-link" href="#" data-index="1">Short Bio</a>
                                 <span class="menu-content">
                                     Hello!<br/>
-                                    My name is Marie Laurent, I am a 24 years old interactive and graphic designer.<br/>
+                                    My name is Marie Laurent, I am a 24 year old interactive and graphic designer.<br/>
                                     I graduated with a master's degree in digital design and production from Gobelins, Paris in 2010.<br/>
                                     I just finished a 6 month internship at Tonic London, and I am currently looking for a full time position in London.<br/>
                                     Please feel free to get in touch with me!
