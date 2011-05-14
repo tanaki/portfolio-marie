@@ -174,8 +174,8 @@
 				]
 			};
         </script>
-		<!--script src="/js/ML/plugins.min.js" type="text/javascript"></script-->
-		<script src="/js/ML/font.js" type="text/javascript"></script>
+		<script src="/js/ML/plugins.min.js" type="text/javascript"></script>
+		<!--script src="/js/ML/font.js" type="text/javascript"></script>
 		<script src="/js/ML/footer_project.js" type="text/javascript"></script>
 		<script src="/js/ML/improved_carousel.js" type="text/javascript"></script>
 		<script src="/js/ML/logo.js" type="text/javascript"></script>
@@ -185,7 +185,7 @@
 		<script src="/js/ML/preload_images.js" type="text/javascript"></script>
 		<script src="/js/ML/resize.js" type="text/javascript"></script>
 
-		<script src="/js/ML/init.js" type="text/javascript"></script>
+		<script src="/js/ML/init.js" type="text/javascript"></script-->
 		
 		<script type="text/javascript">
 
